@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "离线HTML标题",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "初始期末资金",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "资金曲线首帧",
+      "ok": true,
+      "detail": "未找到资金面积曲线"
+    },
+    {
+      "name": "逐笔表格",
+      "ok": true,
+      "detail": "首屏表格应显示10行"
+    },
+    {
+      "name": "留出期起点",
+      "ok": true,
+      "detail": "实际=2024-01-01"
+    },
+    {
+      "name": "留出期指标更新",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "回撤视图切换",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "回撤曲线",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五大联赛筛选项",
+      "ok": true,
+      "detail": "应为全部联赛+五大联赛"
+    },
+    {
+      "name": "联赛筛选",
+      "ok": true,
+      "detail": "英超,英超,英超,英超,英超,英超,英超,英超,英超,英超"
+    },
+    {
+      "name": "CSV导出",
+      "ok": true,
+      "detail": "quarter-kelly-2024-01-01-2026-08-22.csv"
+    },
+    {
+      "name": "无页面脚本错误",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "无控制台错误",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "移动端无水平溢出",
+      "ok": true,
+      "detail": "overflow=0px"
+    },
+    {
+      "name": "移动端视图按钮",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": []
+}
