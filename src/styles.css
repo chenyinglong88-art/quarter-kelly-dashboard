@@ -252,3 +252,54 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 20px
   background: rgba(255, 107, 107, 0.06);
 }
 .league-weight-grid .excluded b { color: #ff7b7b; }
+
+/* Live recommendation and execution board */
+.live-board {
+  margin-bottom: 18px;
+  padding: 20px;
+  border-color: rgba(54, 214, 168, 0.24);
+  background: radial-gradient(circle at 92% 0%, rgba(54, 214, 168, 0.10), transparent 30%), linear-gradient(145deg, rgba(17, 31, 47, 0.98), rgba(12, 23, 36, 0.98));
+}
+.live-board-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; margin-bottom: 16px; }
+.live-board-head h3 { display: flex; align-items: center; gap: 8px; margin: 4px 0 5px; color: #eff7ff; font-size: 20px; }
+.live-board-head p { margin: 0; color: #8498ad; font-size: 13px; }
+.live-update { display: inline-flex; align-items: center; gap: 7px; padding: 8px 11px; border: 1px solid rgba(54, 214, 168, 0.20); border-radius: 999px; color: #a9b9c9; background: rgba(54, 214, 168, 0.06); font-size: 11px; white-space: nowrap; }
+.live-update i { width: 7px; height: 7px; border-radius: 50%; background: #36d6a8; box-shadow: 0 0 12px rgba(54, 214, 168, 0.72); }
+.live-account-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-bottom: 12px; }
+.live-account-grid > div { min-height: 76px; padding: 12px 14px; border: 1px solid rgba(132, 152, 173, 0.14); border-radius: 12px; background: rgba(7, 17, 28, 0.52); }
+.live-account-grid span, .live-record-stats span { display: block; margin-bottom: 6px; color: #7890a7; font-size: 11px; letter-spacing: .02em; }
+.live-account-grid b { color: #eef7ff; font-size: 18px; }
+.live-account-grid small { display: block; margin-top: 3px; color: #647b91; font-size: 10px; }
+.live-account-grid .live-amber { color: #f0a84b; }
+.live-record { display: grid; grid-template-columns: minmax(260px, 1.1fr) minmax(480px, 1.9fr); gap: 16px; align-items: center; padding: 16px; border: 1px solid rgba(98, 182, 255, 0.16); border-radius: 14px; background: rgba(9, 20, 33, 0.72); }
+.live-badges { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.live-badges span, .live-badges strong { padding: 4px 7px; border-radius: 6px; font-size: 10px; font-weight: 700; }
+.live-badges span { color: #9eb2c6; background: rgba(98, 182, 255, 0.10); }
+.live-badges strong { color: #082219; background: #36d6a8; }
+.live-record-main h4 { margin: 0 0 5px; color: #f3f9ff; font-size: 17px; }
+.live-record-main h4 small { color: #617b92; font-size: 11px; font-weight: 500; }
+.live-record-main p { margin: 0; color: #8094a9; font-size: 12px; }
+.live-record-main p b { color: #dfefff; }
+.live-record-stats { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+.live-record-stats > div { padding: 9px 10px; border-left: 1px solid rgba(132, 152, 173, 0.13); }
+.live-record-stats b { color: #e8f2fb; font-size: 14px; white-space: nowrap; }
+.live-record-stats b.positive { color: #36d6a8; }
+.live-record-stats b em { color: #36d6a8; font-style: normal; }
+.live-record-stats b i { color: #ff7b7b; font-style: normal; }
+@media (max-width: 1000px) {
+  .live-account-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .live-record { grid-template-columns: 1fr; }
+  .live-record-stats { grid-template-columns: repeat(5, minmax(92px, 1fr)); overflow-x: auto; }
+}
+@media (max-width: 640px) {
+  .live-board { padding: 15px; }
+  .live-board-head { display: block; }
+  .live-update { margin-top: 12px; white-space: normal; }
+  .live-account-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .live-account-grid > div { min-height: 66px; padding: 10px; }
+  .live-account-grid b { font-size: 16px; }
+  .live-record { padding: 13px; }
+  .live-record-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: visible; }
+  .live-record-stats > div { border-left: 0; border-top: 1px solid rgba(132, 152, 173, 0.12); padding: 9px 4px; }
+  .live-record-stats > div:last-child { grid-column: 1 / -1; }
+}

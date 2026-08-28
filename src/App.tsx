@@ -32,6 +32,7 @@ import {
   YAxis,
 } from "recharts";
 import dashboardData from "./data/dashboard-data.json";
+import liveRecommendations from "./data/live-recommendations.json";
 
 type ChartView = "equity" | "drawdown" | "profit" | "exposure";
 type RangePreset = "all" | "development" | "validation" | "last12m";
@@ -96,6 +97,7 @@ const daily = dashboardData.daily as unknown as DailyPoint[];
 const bets = dashboardData.bets as BetPoint[];
 const summary = dashboardData.summary as Summary;
 const leagues = dashboardData.metadata.leagues as string[];
+const liveBoard = liveRecommendations;
 
 const COLORS = {
   mint: "#36d6a8",
@@ -440,6 +442,43 @@ function App() {
           </div>
         </header>
 
+        <section className="live-board panel">
+          <div className="live-board-head">
+            <div>
+              <span className="panel-kicker">LIVE RECOMMENDATIONS</span>
+              <h3><Activity size={18} />最新推荐与执行记录</h3>
+              <p>今后所有通过审批的比赛统一在此更新，状态分为待复核、已批准、已执行与已结算。</p>
+            </div>
+            <div className="live-update"><i />最后更新 {liveBoard.updated_at.replace("T", " ").slice(0, 16)} GMT+2</div>
+          </div>
+
+          <div className="live-account-grid">
+            <div><span>账户权益</span><b>{formatCurrency(liveBoard.account.bankroll_equity_cny)}</b></div>
+            <div><span>可用现金</span><b>{formatCurrency(liveBoard.account.available_cash_cny)}</b></div>
+            <div><span>未结算暴露</span><b className="live-amber">{formatCurrency(liveBoard.account.open_exposure_cny)}</b></div>
+            <div><span>今日剩余额度</span><b>{formatCurrency(liveBoard.account.remaining_daily_cap_cny)}</b><small>单日上限 {formatCurrency(liveBoard.account.daily_cap_cny)}</small></div>
+          </div>
+
+          <div className="live-records">
+            {liveBoard.records.map((record) => (
+              <article className="live-record" key={record.record_id}>
+                <div className="live-record-main">
+                  <div className="live-badges"><span>{record.league}</span><span>{record.market}</span><strong>{record.status}</strong></div>
+                  <h4>{record.home_team} <small>vs</small> {record.away_team}</h4>
+                  <p>{record.date} · {record.kickoff_gmt2.slice(11)} GMT+2 · 选择 <b>{record.selection}</b> · {record.settlement}</p>
+                </div>
+                <div className="live-record-stats">
+                  <div><span>成交赔率</span><b>{record.executed_odds.toFixed(2)}</b></div>
+                  <div><span>投注金额</span><b>{formatCurrency(record.stake_cny)}</b></div>
+                  <div><span>模型概率</span><b>{formatPercent(record.model_probability, 1)}</b></div>
+                  <div><span>模型EV</span><b className="positive">+{formatPercent(record.model_ev, 2)}</b></div>
+                  <div><span>盈亏区间</span><b><em>+{formatCurrency(record.potential_profit_cny)}</em> / <i>-{formatCurrency(record.maximum_loss_cny)}</i></b></div>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+
         <section className="control-strip">
           <div className="preset-group">
             <CalendarRange size={16} />
@@ -571,7 +610,7 @@ function App() {
 
         <footer>
           <span>Quarter Kelly Backtest · Standalone Build</span>
-          <span>开发期锁定 · 2024年至今留出验证通过 · 真实提交前须确认</span>
+          <span>开发期锁定 · 2024年至今留出验证通过 · 最新推荐与执行记录持续更新</span>
         </footer>
       </main>
     </div>

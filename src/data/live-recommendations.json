@@ -1,0 +1,38 @@
+{
+  "updated_at": "2026-08-28T15:45:00+02:00",
+  "account": {
+    "bankroll_equity_cny": 10000,
+    "available_cash_cny": 9800,
+    "historical_peak_cny": 10000,
+    "open_exposure_cny": 200,
+    "daily_cap_cny": 600,
+    "remaining_daily_cap_cny": 400,
+    "drawdown_pct": 0,
+    "drawdown_regime": "正常",
+    "drawdown_factor": 1
+  },
+  "records": [
+    {
+      "record_id": "rec_20260828_bayern_stuttgart",
+      "date": "2026-08-28",
+      "kickoff_gmt2": "2026-08-28 20:30",
+      "league": "德甲",
+      "home_team": "拜仁慕尼黑",
+      "away_team": "斯图加特",
+      "market": "90分钟1X2",
+      "selection": "主胜",
+      "model_probability": 0.8054568767464151,
+      "minimum_odds": 1.2539467092016423,
+      "maximum_odds": 1.5,
+      "executed_odds": 1.3,
+      "stake_cny": 200,
+      "model_ev": 0.047094,
+      "potential_profit_cny": 60,
+      "maximum_loss_cny": 200,
+      "status": "已执行",
+      "settlement": "待结算",
+      "source": "用户报告",
+      "notes": "成交赔率1.30；按单笔2%硬上限执行"
+    }
+  ]
+}
