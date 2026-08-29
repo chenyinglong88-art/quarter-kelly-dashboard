@@ -459,6 +459,23 @@ function App() {
             <div><span>今日剩余额度</span><b>{formatCurrency(liveBoard.account.remaining_daily_cap_cny)}</b><small>单日上限 {formatCurrency(liveBoard.account.daily_cap_cny)}</small></div>
           </div>
 
+          <div className="screening-summary">
+            <div className="screening-title">
+              <div><span>{liveBoard.screening_summary.date} · 已核验 {liveBoard.screening_summary.fixtures_checked} 场</span><b>{liveBoard.screening_summary.status}</b></div>
+              <strong>批准金额 {formatCurrency(liveBoard.screening_summary.approved_stake_cny)}</strong>
+            </div>
+            <p>{liveBoard.screening_summary.notes} 当前清单按“{liveBoard.screening_summary.strategy}”预审批。</p>
+            <div className="screening-candidates">
+              {liveBoard.screening_summary.candidates.map((candidate) => (
+                <div key={candidate.match}>
+                  <span>{candidate.league} · {candidate.match}</span>
+                  <b>{candidate.selection} · B版 {formatPercent(candidate.model_probability, 1)}</b>
+                  <small>公开价 {candidate.public_odds} · 最低 {candidate.minimum_odds.toFixed(3)} · {candidate.status}</small>
+                </div>
+              ))}
+            </div>
+          </div>
+
           <div className="live-records">
             {liveBoard.records.map((record) => (
               <article className="live-record" key={record.record_id}>

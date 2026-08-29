@@ -1,15 +1,52 @@
 {
-  "updated_at": "2026-08-28T15:45:00+02:00",
+  "updated_at": "2026-08-29T11:20:00+02:00",
   "account": {
-    "bankroll_equity_cny": 10000,
-    "available_cash_cny": 9800,
-    "historical_peak_cny": 10000,
-    "open_exposure_cny": 200,
-    "daily_cap_cny": 600,
-    "remaining_daily_cap_cny": 400,
+    "bankroll_equity_cny": 10060,
+    "available_cash_cny": 10060,
+    "historical_peak_cny": 10060,
+    "open_exposure_cny": 0,
+    "daily_cap_cny": 1207.2,
+    "remaining_daily_cap_cny": 1207.2,
     "drawdown_pct": 0,
     "drawdown_regime": "正常",
     "drawdown_factor": 1
+  },
+  "screening_summary": {
+    "date": "2026-08-29",
+    "strategy": "10%双模型重合信号前瞻激进版",
+    "fixtures_checked": 22,
+    "status": "今日无正式推荐",
+    "approved_stake_cny": 0,
+    "notes": "三场进入B版价格观察池，但全部未通过实际赔率硬窗；当前不下注。",
+    "candidates": [
+      {
+        "league": "德甲",
+        "match": "多特蒙德 vs 汉堡",
+        "selection": "90分钟主胜",
+        "model_probability": 0.7093271400088215,
+        "minimum_odds": 1.4238846126590323,
+        "public_odds": "1.319—1.351",
+        "status": "拒绝：赔率过低"
+      },
+      {
+        "league": "意甲",
+        "match": "尤文图斯 vs 帕尔马",
+        "selection": "90分钟主胜",
+        "model_probability": 0.698559816268562,
+        "minimum_odds": 1.4458316055067832,
+        "public_odds": "1.20—1.26",
+        "status": "拒绝：赔率过低"
+      },
+      {
+        "league": "法甲",
+        "match": "洛里昂 vs 特鲁瓦",
+        "selection": "90分钟主胜",
+        "model_probability": 0.692441437068717,
+        "minimum_odds": 1.4586078957061441,
+        "public_odds": "约1.80",
+        "status": "拒绝：超过1.50上限"
+      }
+    ]
   },
   "records": [
     {
@@ -29,10 +66,10 @@
       "model_ev": 0.047094,
       "potential_profit_cny": 60,
       "maximum_loss_cny": 200,
-      "status": "已执行",
-      "settlement": "待结算",
-      "source": "用户报告",
-      "notes": "成交赔率1.30；按单笔2%硬上限执行"
+      "status": "已执行并结算",
+      "settlement": "胜（5比1）· +¥60",
+      "source": "用户报告 + Reuters",
+      "notes": "成交赔率1.30；投注200元；账户权益更新为10,060元"
     }
   ]
 }

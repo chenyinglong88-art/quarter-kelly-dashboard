@@ -271,6 +271,18 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 20px
 .live-account-grid b { color: #eef7ff; font-size: 18px; }
 .live-account-grid small { display: block; margin-top: 3px; color: #647b91; font-size: 10px; }
 .live-account-grid .live-amber { color: #f0a84b; }
+.screening-summary { margin-bottom: 12px; padding: 14px; border: 1px solid rgba(240, 168, 75, 0.24); border-radius: 13px; background: linear-gradient(135deg, rgba(240, 168, 75, 0.08), rgba(9, 20, 33, 0.62)); }
+.screening-title { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.screening-title > div span { display: block; margin-bottom: 4px; color: #8ca0b5; font-size: 10px; letter-spacing: .04em; text-transform: uppercase; }
+.screening-title > div b { color: #f0a84b; font-size: 18px; }
+.screening-title > strong { color: #d9e7f3; font-size: 13px; }
+.screening-summary > p { margin: 8px 0 12px; color: #8196ab; font-size: 12px; }
+.screening-candidates { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.screening-candidates > div { padding: 10px; border: 1px solid rgba(132, 152, 173, 0.13); border-radius: 10px; background: rgba(6, 15, 25, 0.48); }
+.screening-candidates span, .screening-candidates b, .screening-candidates small { display: block; }
+.screening-candidates span { color: #8fa4b9; font-size: 10px; }
+.screening-candidates b { margin: 5px 0; color: #dce9f4; font-size: 12px; }
+.screening-candidates small { color: #ff9c9c; font-size: 10px; line-height: 1.45; }
 .live-record { display: grid; grid-template-columns: minmax(260px, 1.1fr) minmax(480px, 1.9fr); gap: 16px; align-items: center; padding: 16px; border: 1px solid rgba(98, 182, 255, 0.16); border-radius: 14px; background: rgba(9, 20, 33, 0.72); }
 .live-badges { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
 .live-badges span, .live-badges strong { padding: 4px 7px; border-radius: 6px; font-size: 10px; font-weight: 700; }
@@ -288,6 +300,7 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 20px
 .live-record-stats b i { color: #ff7b7b; font-style: normal; }
 @media (max-width: 1000px) {
   .live-account-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .screening-candidates { grid-template-columns: 1fr; }
   .live-record { grid-template-columns: 1fr; }
   .live-record-stats { grid-template-columns: repeat(5, minmax(92px, 1fr)); overflow-x: auto; }
 }
@@ -298,6 +311,9 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 20px
   .live-account-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .live-account-grid > div { min-height: 66px; padding: 10px; }
   .live-account-grid b { font-size: 16px; }
+  .screening-title { align-items: flex-start; }
+  .screening-title > div b { font-size: 16px; }
+  .screening-title > strong { text-align: right; }
   .live-record { padding: 13px; }
   .live-record-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: visible; }
   .live-record-stats > div { border-left: 0; border-top: 1px solid rgba(132, 152, 173, 0.12); padding: 9px 4px; }
