@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T11:20:00+02:00",
+  "updated_at": "2026-08-29T23:29:21+02:00",
   "account": {
     "bankroll_equity_cny": 10060,
     "available_cash_cny": 10060,
@@ -12,39 +12,39 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-08-29",
-    "strategy": "10%双模型重合信号前瞻激进版",
-    "fixtures_checked": 22,
-    "status": "今日无正式推荐",
+    "date": "2026-08-30",
+    "strategy": "正式B版1X2 + 10%双模型重合；亚洲-1.25仅前瞻观察",
+    "fixtures_checked": 15,
+    "status": "明日1场临场条件复核，当前0场正式批准",
     "approved_stake_cny": 0,
-    "notes": "三场进入B版价格观察池，但全部未通过实际赔率硬窗；当前不下注。",
+    "notes": "曼联90分钟主胜须在实际赔率1.375—1.50、首发及评分门槛复核后才能批准；当前不要提前下注。",
     "candidates": [
       {
-        "league": "德甲",
-        "match": "多特蒙德 vs 汉堡",
+        "league": "英超",
+        "match": "曼联 vs 伊普斯维奇",
         "selection": "90分钟主胜",
-        "model_probability": 0.7093271400088215,
-        "minimum_odds": 1.4238846126590323,
-        "public_odds": "1.319—1.351",
-        "status": "拒绝：赔率过低"
+        "model_probability": 0.734587,
+        "minimum_odds": 1.374922,
+        "public_odds": "最高约1.4286",
+        "status": "条件复核：价格与双信号重合通过，等待首发/评分/用户实价"
       },
       {
-        "league": "意甲",
-        "match": "尤文图斯 vs 帕尔马",
-        "selection": "90分钟主胜",
-        "model_probability": 0.698559816268562,
-        "minimum_odds": 1.4458316055067832,
-        "public_odds": "1.20—1.26",
-        "status": "拒绝：赔率过低"
+        "league": "英超",
+        "match": "曼联 vs 伊普斯维奇",
+        "selection": "曼联-1.25亚洲盘",
+        "model_probability": 0.532146,
+        "minimum_odds": 1.82991,
+        "public_odds": "未可靠核验；公开主盘为-1.5约2.00",
+        "status": "仅观察：亚洲盘模块尚未正式启用"
       },
       {
-        "league": "法甲",
-        "match": "洛里昂 vs 特鲁瓦",
+        "league": "西甲",
+        "match": "皇家马德里 vs 马拉加",
         "selection": "90分钟主胜",
-        "model_probability": 0.692441437068717,
-        "minimum_odds": 1.4586078957061441,
-        "public_odds": "约1.80",
-        "status": "拒绝：超过1.50上限"
+        "model_probability": 0.800171,
+        "minimum_odds": 1.26223,
+        "public_odds": "约1.11",
+        "status": "拒绝：赔率过低、模型EV为负"
       }
     ]
   },
