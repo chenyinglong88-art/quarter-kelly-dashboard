@@ -1,50 +1,68 @@
 {
-  "updated_at": "2026-08-30T20:43:01+02:00",
+  "updated_at": "2026-08-30T22:20:26+02:00",
   "account": {
     "bankroll_equity_cny": 10336.26,
     "available_cash_cny": 10336.26,
     "historical_peak_cny": 10336.26,
     "open_exposure_cny": 0,
-    "daily_cap_cny": 1207.2,
-    "remaining_daily_cap_cny": 480.2,
+    "daily_cap_cny": 1240.35,
+    "remaining_daily_cap_cny": 1240.35,
     "drawdown_pct": 0,
     "drawdown_regime": "正常",
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-08-30",
+    "date": "2026-08-31",
     "strategy": "正式B版1X2 + 10%双模型重合；亚洲-1.25与任意半场胜仅前瞻观察",
-    "fixtures_checked": 15,
-    "status": "曼联主胜5比2获胜，已结算",
-    "approved_stake_cny": 727,
-    "notes": "曼联90分钟主胜按用户报告以1.38成交727元，5比2获胜；结算利润276.26元，账户权益更新为10,336.26元。",
+    "fixtures_checked": 5,
+    "status": "明日无正式推荐；巴塞罗那仅作价格等待",
+    "approved_stake_cny": 0,
+    "notes": "五场均未通过当前可成交价格与正式规则。巴塞罗那90分钟主胜只有进入1.343—1.50才重新复核；当前约1.167，不下注。亚洲盘与任意半场胜也没有合格观察信号。",
     "candidates": [
       {
-        "league": "英超",
-        "match": "曼联 vs 伊普斯维奇",
+        "league": "西甲",
+        "match": "巴塞罗那 vs 巴列卡诺",
         "selection": "90分钟主胜",
-        "model_probability": 0.734587,
-        "minimum_odds": 1.374922,
-        "public_odds": "实际成交1.38",
-        "status": "已执行并结算：5比2获胜；利润276.26元"
+        "model_probability": 0.75196,
+        "minimum_odds": 1.343157,
+        "public_odds": "约1.167",
+        "status": "价格等待：当前EV约-12.27%；仅1.343—1.50重新复核"
       },
       {
-        "league": "英超",
-        "match": "曼联 vs 伊普斯维奇",
-        "selection": "曼联-1.25亚洲盘",
-        "model_probability": 0.532146,
-        "minimum_odds": 1.82991,
-        "public_odds": "未可靠核验；公开主盘为-1.5约2.00",
-        "status": "仅观察：亚洲盘模块尚未正式启用；本场不得追加"
+        "league": "意甲",
+        "match": "莱切 vs 罗马",
+        "selection": "90分钟罗马客胜",
+        "model_probability": 0.6138,
+        "minimum_odds": 1.645487,
+        "public_odds": "1.42—1.51",
+        "status": "拒绝：价格不足；罗马-1.25约2.04的EV约-11.40%"
       },
       {
         "league": "西甲",
-        "match": "皇家马德里 vs 马拉加",
+        "match": "奥萨苏纳 vs 赫塔费",
         "selection": "90分钟主胜",
-        "model_probability": 0.800171,
-        "minimum_odds": 1.26223,
-        "public_odds": "约1.11",
-        "status": "拒绝：赔率过低、模型EV为负"
+        "model_probability": 0.638922,
+        "minimum_odds": 1.580787,
+        "public_odds": "最高约2.26",
+        "status": "拒绝：超过正式1.50上限且模型分歧较大；任意半场胜1.72低于1.839门槛"
+      },
+      {
+        "league": "英超",
+        "match": "阿斯顿维拉 vs 阿森纳",
+        "selection": "90分钟阿森纳客胜",
+        "model_probability": 0.596436,
+        "minimum_odds": 1.693393,
+        "public_odds": "约1.54—1.55",
+        "status": "拒绝：EV约-7.55%；任意半场胜1.33低于1.575门槛"
+      },
+      {
+        "league": "意甲",
+        "match": "亚特兰大 vs 博洛尼亚",
+        "selection": "90分钟主胜",
+        "model_probability": 0.377785,
+        "minimum_odds": 2.673478,
+        "public_odds": "约1.917",
+        "status": "拒绝：模型EV约-27.58%；公开主盘仅-0.5"
       }
     ]
   },
