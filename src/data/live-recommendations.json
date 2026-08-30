@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-30T20:38:43+02:00",
+  "updated_at": "2026-08-30T20:43:01+02:00",
   "account": {
-    "bankroll_equity_cny": 10060,
-    "available_cash_cny": 9333,
-    "historical_peak_cny": 10060,
-    "open_exposure_cny": 727,
+    "bankroll_equity_cny": 10336.26,
+    "available_cash_cny": 10336.26,
+    "historical_peak_cny": 10336.26,
+    "open_exposure_cny": 0,
     "daily_cap_cny": 1207.2,
     "remaining_daily_cap_cny": 480.2,
     "drawdown_pct": 0,
@@ -15,9 +15,9 @@
     "date": "2026-08-30",
     "strategy": "正式B版1X2 + 10%双模型重合；亚洲-1.25与任意半场胜仅前瞻观察",
     "fixtures_checked": 15,
-    "status": "曼联主胜已执行待结算；不建议追加",
+    "status": "曼联主胜5比2获胜，已结算",
     "approved_stake_cny": 727,
-    "notes": "曼联90分钟主胜按用户报告以1.38成交727元；当前未结算暴露727元，剩余理论日限额480.20元，但没有第二场正式批准，不得继续使用额度。",
+    "notes": "曼联90分钟主胜按用户报告以1.38成交727元，5比2获胜；结算利润276.26元，账户权益更新为10,336.26元。",
     "candidates": [
       {
         "league": "英超",
@@ -26,7 +26,7 @@
         "model_probability": 0.734587,
         "minimum_odds": 1.374922,
         "public_odds": "实际成交1.38",
-        "status": "已执行待结算：727元；最大损失727元；胜出毛利276.26元；请勿追加"
+        "status": "已执行并结算：5比2获胜；利润276.26元"
       },
       {
         "league": "英超",
@@ -66,10 +66,10 @@
       "model_ev": 0.01373002,
       "potential_profit_cny": 276.26,
       "maximum_loss_cny": 727,
-      "status": "已执行待结算",
-      "settlement": "待结算",
-      "source": "用户报告",
-      "notes": "成交赔率1.38；投注727元；B概率73.46%；贝叶斯主胜62.48%；双信号重合；请勿追加"
+      "status": "已执行并结算",
+      "settlement": "胜（5比2）· +¥276.26",
+      "source": "用户报告 + Sky Sports + NBC Sports + Al Jazeera",
+      "notes": "成交赔率1.38；投注727元；结算利润276.26元；账户权益更新为10,336.26元"
     },
     {
       "record_id": "rec_20260828_bayern_stuttgart",
