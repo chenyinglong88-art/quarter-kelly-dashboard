@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T22:20:26+02:00",
+  "updated_at": "2026-08-31T23:47:30+02:00",
   "account": {
     "bankroll_equity_cny": 10336.26,
     "available_cash_cny": 10336.26,
@@ -12,59 +12,13 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-08-31",
-    "strategy": "正式B版1X2 + 10%双模型重合；亚洲-1.25与任意半场胜仅前瞻观察",
-    "fixtures_checked": 5,
-    "status": "明日无正式推荐；巴塞罗那仅作价格等待",
+    "date": "2026-09-01",
+    "strategy": "正式B版1X2 + 总分≥84 + 可验证赔率；亚洲-1.25与任意半场胜仅限已验证联赛观察",
+    "fixtures_checked": 35,
+    "status": "明日无正式推荐；建议不下注",
     "approved_stake_cny": 0,
-    "notes": "五场均未通过当前可成交价格与正式规则。巴塞罗那90分钟主胜只有进入1.343—1.50才重新复核；当前约1.167，不下注。亚洲盘与任意半场胜也没有合格观察信号。",
-    "candidates": [
-      {
-        "league": "西甲",
-        "match": "巴塞罗那 vs 巴列卡诺",
-        "selection": "90分钟主胜",
-        "model_probability": 0.75196,
-        "minimum_odds": 1.343157,
-        "public_odds": "约1.167",
-        "status": "价格等待：当前EV约-12.27%；仅1.343—1.50重新复核"
-      },
-      {
-        "league": "意甲",
-        "match": "莱切 vs 罗马",
-        "selection": "90分钟罗马客胜",
-        "model_probability": 0.6138,
-        "minimum_odds": 1.645487,
-        "public_odds": "1.42—1.51",
-        "status": "拒绝：价格不足；罗马-1.25约2.04的EV约-11.40%"
-      },
-      {
-        "league": "西甲",
-        "match": "奥萨苏纳 vs 赫塔费",
-        "selection": "90分钟主胜",
-        "model_probability": 0.638922,
-        "minimum_odds": 1.580787,
-        "public_odds": "最高约2.26",
-        "status": "拒绝：超过正式1.50上限且模型分歧较大；任意半场胜1.72低于1.839门槛"
-      },
-      {
-        "league": "英超",
-        "match": "阿斯顿维拉 vs 阿森纳",
-        "selection": "90分钟阿森纳客胜",
-        "model_probability": 0.596436,
-        "minimum_odds": 1.693393,
-        "public_odds": "约1.54—1.55",
-        "status": "拒绝：EV约-7.55%；任意半场胜1.33低于1.575门槛"
-      },
-      {
-        "league": "意甲",
-        "match": "亚特兰大 vs 博洛尼亚",
-        "selection": "90分钟主胜",
-        "model_probability": 0.377785,
-        "minimum_odds": 2.673478,
-        "public_odds": "约1.917",
-        "status": "拒绝：模型EV约-27.58%；公开主盘仅-0.5"
-      }
-    ]
+    "notes": "五大联赛当日没有联赛场次。已核查英冠、英甲、英乙、杯赛、奥地利甲、瑞士超等35场；谢菲联、切斯特菲尔德、索尔福德和年轻人只是市场热门，但缺少现行已验证xG模型及84分评分链，不能正式批准。多特蒙德德国杯客胜约1.01，价格过低。",
+    "candidates": []
   },
   "records": [
     {

@@ -466,7 +466,15 @@ function App() {
             </div>
             <p>{liveBoard.screening_summary.notes} 当前清单按“{liveBoard.screening_summary.strategy}”预审批。</p>
             <div className="screening-candidates">
-              {liveBoard.screening_summary.candidates.map((candidate) => (
+              {(liveBoard.screening_summary.candidates as Array<{
+                league: string;
+                match: string;
+                selection: string;
+                model_probability: number;
+                public_odds: string;
+                minimum_odds: number;
+                status: string;
+              }>).map((candidate) => (
                 <div key={candidate.match}>
                   <span>{candidate.league} · {candidate.match}</span>
                   <b>{candidate.selection} · B版 {formatPercent(candidate.model_probability, 1)}</b>
