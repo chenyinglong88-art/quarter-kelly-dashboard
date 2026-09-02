@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T23:46:38+02:00",
+  "updated_at": "2026-09-03T00:38:01+02:00",
   "account": {
     "bankroll_equity_cny": 10336.26,
     "available_cash_cny": 10336.26,
@@ -12,13 +12,32 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-09-02",
-    "strategy": "正式B版1X2 + R8重合 + 总分≥84 + 可验证EV；亚洲-1.25与任意半场胜仅作前瞻观察",
-    "fixtures_checked": 44,
-    "status": "明日无正式推荐；建议保持空仓",
+    "date": "2026-09-03",
+    "strategy": "正式B版1X2 + R8重合 + v3.6总分≥84且赔率≥1.50；亚洲-1.25与任意半场胜仅作前瞻观察",
+    "fixtures_checked": 16,
+    "status": "今日无正式推荐；建议保持空仓",
     "approved_stake_cny": 0,
-    "notes": "五大联赛当日没有常规联赛场次。已核查英冠、英甲、苏超、J1、瑞士超、意大利杯、德国杯及其他赛事44场。Sanfrecce主胜1.52、St. Gallen客胜约1.70、Luzern主胜约1.63、Rangers客胜约1.60只是市场观察；均缺少本系统可验证模型概率或总分≥84。亚洲-1.25与任意半场胜也没有合格信号。",
-    "candidates": []
+    "notes": "已核验今日尚未开赛16场。五大联赛模型覆盖2场：Real Sociedad主胜1.90的B版概率56.63%、EV约+7.60%，但超出现行B版1.50硬上限且v3.6总分≥84不可验证；Toulouse主胜3.40的表面EV约+23.91%，但B版与贝叶斯头号方向分歧且同样没有v3.6评分。其他热门来自未完成正式验证的联赛或杯赛。亚洲-1.25没有锁定盘口；Real Sociedad任意半场胜1.45低于1.55观察门槛。",
+    "candidates": [
+      {
+        "league": "西甲",
+        "match": "Real Sociedad vs Celta Vigo",
+        "selection": "90分钟主胜",
+        "model_probability": 0.5663033155593198,
+        "public_odds": "1.90",
+        "minimum_odds": 1.7834965331298742,
+        "status": "模型观察；正式拒绝（84分不可验证）"
+      },
+      {
+        "league": "法甲",
+        "match": "Toulouse vs Lille",
+        "selection": "90分钟Toulouse主胜",
+        "model_probability": 0.3644534246615373,
+        "public_odds": "3.40",
+        "minimum_odds": 2.7712731769168384,
+        "status": "模型头号方向分歧；正式拒绝"
+      }
+    ]
   },
   "records": [
     {
