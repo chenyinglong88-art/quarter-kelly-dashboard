@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T00:38:01+02:00",
+  "updated_at": "2026-09-03T23:17:28+02:00",
   "account": {
     "bankroll_equity_cny": 10336.26,
     "available_cash_cny": 10336.26,
@@ -12,30 +12,39 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-09-03",
-    "strategy": "正式B版1X2 + R8重合 + v3.6总分≥84且赔率≥1.50；亚洲-1.25与任意半场胜仅作前瞻观察",
-    "fixtures_checked": 16,
-    "status": "今日无正式推荐；建议保持空仓",
+    "date": "2026-09-04",
+    "strategy": "正式B版1X2 + R8重合 + v3.6总分≥84且赔率≥1.50 + 平局策略；亚洲-1.25与任意半场胜仅作前瞻观察",
+    "fixtures_checked": 45,
+    "status": "明日无正式推荐；建议保持空仓",
     "approved_stake_cny": 0,
-    "notes": "已核验今日尚未开赛16场。五大联赛模型覆盖2场：Real Sociedad主胜1.90的B版概率56.63%、EV约+7.60%，但超出现行B版1.50硬上限且v3.6总分≥84不可验证；Toulouse主胜3.40的表面EV约+23.91%，但B版与贝叶斯头号方向分歧且同样没有v3.6评分。其他热门来自未完成正式验证的联赛或杯赛。亚洲-1.25没有锁定盘口；Real Sociedad任意半场胜1.45低于1.55观察门槛。",
+    "notes": "已核验9月4日45场，五大联赛6场完成B版与动态贝叶斯刷新。六场模型头号方向全部同向，但当前1X2赔率均低于1% EV最低价；正式B版、v3.6评分、平局策略、亚洲-1.25和任意半场胜均为0场通过。Lyon主胜1.502对应最低1.608；Liverpool客胜约1.481对应最低1.572。Stuttgart、Betis-Real Madrid和PSG的平局仅显示泊松表面正EV，因独立平局评分与总分84不可验证而拒绝。",
     "candidates": [
       {
-        "league": "西甲",
-        "match": "Real Sociedad vs Celta Vigo",
-        "selection": "90分钟主胜",
-        "model_probability": 0.5663033155593198,
-        "public_odds": "1.90",
-        "minimum_odds": 1.7834965331298742,
-        "status": "模型观察；正式拒绝（84分不可验证）"
+        "league": "法甲",
+        "match": "Lyon vs Auxerre",
+        "selection": "90分钟Lyon主胜",
+        "model_probability": 0.6281343272719098,
+        "public_odds": "1.502",
+        "minimum_odds": 1.6079363221344636,
+        "status": "价格不足；正式拒绝"
       },
       {
-        "league": "法甲",
-        "match": "Toulouse vs Lille",
-        "selection": "90分钟Toulouse主胜",
-        "model_probability": 0.3644534246615373,
-        "public_odds": "3.40",
-        "minimum_odds": 2.7712731769168384,
-        "status": "模型头号方向分歧；正式拒绝"
+        "league": "英超",
+        "match": "Ipswich vs Liverpool",
+        "selection": "90分钟Liverpool客胜",
+        "model_probability": 0.6425730918770282,
+        "public_odds": "约1.481",
+        "minimum_odds": 1.571805624554985,
+        "status": "价格不足；正式拒绝"
+      },
+      {
+        "league": "西甲",
+        "match": "Betis vs Real Madrid",
+        "selection": "90分钟平局",
+        "model_probability": 0.2416588344693942,
+        "public_odds": "约5.25",
+        "minimum_odds": 4.180383055663808,
+        "status": "仅泊松表面观察；独立平局评分不可验证，拒绝"
       }
     ]
   },
