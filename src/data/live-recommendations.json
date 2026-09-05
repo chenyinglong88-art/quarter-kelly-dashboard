@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T23:17:28+02:00",
+  "updated_at": "2026-09-05T06:46:39+02:00",
   "account": {
     "bankroll_equity_cny": 10336.26,
     "available_cash_cny": 10336.26,
@@ -12,39 +12,57 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-09-04",
-    "strategy": "正式B版1X2 + R8重合 + v3.6总分≥84且赔率≥1.50 + 平局策略；亚洲-1.25与任意半场胜仅作前瞻观察",
-    "fixtures_checked": 45,
-    "status": "明日无正式推荐；建议保持空仓",
+    "date": "2026-09-05",
+    "strategy": "正式B版1X2 + R8/锁定英超西甲主胜扩展 + 总分≥84；动态贝叶斯作分歧提示；亚洲-1.25与任意半场胜仅作前瞻观察",
+    "fixtures_checked": 108,
+    "status": "今日有4场条件候选；当前0场最终批准",
     "approved_stake_cny": 0,
-    "notes": "已核验9月4日45场，五大联赛6场完成B版与动态贝叶斯刷新。六场模型头号方向全部同向，但当前1X2赔率均低于1% EV最低价；正式B版、v3.6评分、平局策略、亚洲-1.25和任意半场胜均为0场通过。Lyon主胜1.502对应最低1.608；Liverpool客胜约1.481对应最低1.572。Stuttgart、Betis-Real Madrid和PSG的平局仅显示泊松表面正EV，因独立平局评分与总分84不可验证而拒绝。",
+    "notes": "已核验9月5日108场主要联赛比赛，五大联赛22场完成B版与动态贝叶斯刷新。Leverkusen、Lens进入正式低价主胜价格窗；Brentford、Brighton进入锁定英超主胜扩展价格窗。四场均因总分84与临场首发尚不可验证而处于条件等待。Roma至少赢一个半场1.63对应模型EV约+9.92%，但专项市场仍仅观察、不实盘。若四场全部通过，同日12%上限等比例缩放后每场约310.09元。",
     "candidates": [
       {
+        "league": "德甲",
+        "match": "Leverkusen vs Union Berlin",
+        "selection": "90分钟Leverkusen主胜",
+        "model_probability": 0.8242044261586768,
+        "public_odds": "1.42–1.50（Bet365约1.44）",
+        "minimum_odds": 1.2254241398669141,
+        "status": "价格与EV通过；总分84及首发待核验"
+      },
+      {
         "league": "法甲",
-        "match": "Lyon vs Auxerre",
-        "selection": "90分钟Lyon主胜",
-        "model_probability": 0.6281343272719098,
-        "public_odds": "1.502",
-        "minimum_odds": 1.6079363221344636,
-        "status": "价格不足；正式拒绝"
+        "match": "Lens vs Lorient",
+        "selection": "90分钟Lens主胜",
+        "model_probability": 0.7216070350873118,
+        "public_odds": "1.43–1.51",
+        "minimum_odds": 1.3996537601352428,
+        "status": "仅1.400–1.50可继续审批；总分84待核验"
       },
       {
         "league": "英超",
-        "match": "Ipswich vs Liverpool",
-        "selection": "90分钟Liverpool客胜",
-        "model_probability": 0.6425730918770282,
-        "public_odds": "约1.481",
-        "minimum_odds": 1.571805624554985,
-        "status": "价格不足；正式拒绝"
+        "match": "Brentford vs Sunderland",
+        "selection": "90分钟Brentford主胜",
+        "model_probability": 0.6808155848262022,
+        "public_odds": "1.61–1.684",
+        "minimum_odds": 1.4835148056398146,
+        "status": "锁定英超主胜扩展条件；总分84及首发待核验"
       },
       {
-        "league": "西甲",
-        "match": "Betis vs Real Madrid",
-        "selection": "90分钟平局",
-        "model_probability": 0.2416588344693942,
-        "public_odds": "约5.25",
-        "minimum_odds": 4.180383055663808,
-        "status": "仅泊松表面观察；独立平局评分不可验证，拒绝"
+        "league": "英超",
+        "match": "Brighton vs Leeds",
+        "selection": "90分钟Brighton主胜",
+        "model_probability": 0.5486033018257194,
+        "public_odds": "1.88–2.06",
+        "minimum_odds": 1.8410388647658147,
+        "status": "仅1.841–2.00可继续审批；总分84待核验"
+      },
+      {
+        "league": "意甲",
+        "match": "Roma vs Atalanta",
+        "selection": "Roma至少赢一个半场",
+        "model_probability": 0.674335,
+        "public_odds": "约1.63",
+        "minimum_odds": 1.52743,
+        "status": "专项市场模型EV通过；仅前瞻观察，不实盘"
       }
     ]
   },
