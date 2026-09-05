@@ -1,72 +1,48 @@
 {
-  "updated_at": "2026-09-05T06:46:39+02:00",
+  "updated_at": "2026-09-05T22:19:39+02:00",
   "account": {
-    "bankroll_equity_cny": 10336.26,
-    "available_cash_cny": 10336.26,
-    "historical_peak_cny": 10336.26,
+    "bankroll_equity_cny": 10836.26,
+    "available_cash_cny": 10836.26,
+    "historical_peak_cny": 10836.26,
     "open_exposure_cny": 0,
     "daily_cap_cny": 1240.35,
-    "remaining_daily_cap_cny": 1240.35,
+    "remaining_daily_cap_cny": 240.35,
     "drawdown_pct": 0,
     "drawdown_regime": "正常",
     "drawdown_factor": 1
   },
   "screening_summary": {
     "date": "2026-09-05",
-    "strategy": "正式B版1X2 + R8/锁定英超西甲主胜扩展 + 总分≥84；动态贝叶斯作分歧提示；亚洲-1.25与任意半场胜仅作前瞻观察",
+    "strategy": "正式B版1X2 + R8/锁定扩展；真实执行按用户报告登记，赛果由官方及多来源交叉核验",
     "fixtures_checked": 108,
-    "status": "今日有4场条件候选；当前0场最终批准",
+    "status": "Leverkusen主胜已结算获胜；今日无剩余推荐",
     "approved_stake_cny": 0,
-    "notes": "已核验9月5日108场主要联赛比赛，五大联赛22场完成B版与动态贝叶斯刷新。Leverkusen、Lens进入正式低价主胜价格窗；Brentford、Brighton进入锁定英超主胜扩展价格窗。四场均因总分84与临场首发尚不可验证而处于条件等待。Roma至少赢一个半场1.63对应模型EV约+9.92%，但专项市场仍仅观察、不实盘。若四场全部通过，同日12%上限等比例缩放后每场约310.09元。",
-    "candidates": [
-      {
-        "league": "德甲",
-        "match": "Leverkusen vs Union Berlin",
-        "selection": "90分钟Leverkusen主胜",
-        "model_probability": 0.8242044261586768,
-        "public_odds": "1.42–1.50（Bet365约1.44）",
-        "minimum_odds": 1.2254241398669141,
-        "status": "价格与EV通过；总分84及首发待核验"
-      },
-      {
-        "league": "法甲",
-        "match": "Lens vs Lorient",
-        "selection": "90分钟Lens主胜",
-        "model_probability": 0.7216070350873118,
-        "public_odds": "1.43–1.51",
-        "minimum_odds": 1.3996537601352428,
-        "status": "仅1.400–1.50可继续审批；总分84待核验"
-      },
-      {
-        "league": "英超",
-        "match": "Brentford vs Sunderland",
-        "selection": "90分钟Brentford主胜",
-        "model_probability": 0.6808155848262022,
-        "public_odds": "1.61–1.684",
-        "minimum_odds": 1.4835148056398146,
-        "status": "锁定英超主胜扩展条件；总分84及首发待核验"
-      },
-      {
-        "league": "英超",
-        "match": "Brighton vs Leeds",
-        "selection": "90分钟Brighton主胜",
-        "model_probability": 0.5486033018257194,
-        "public_odds": "1.88–2.06",
-        "minimum_odds": 1.8410388647658147,
-        "status": "仅1.841–2.00可继续审批；总分84待核验"
-      },
-      {
-        "league": "意甲",
-        "match": "Roma vs Atalanta",
-        "selection": "Roma至少赢一个半场",
-        "model_probability": 0.674335,
-        "public_odds": "约1.63",
-        "minimum_odds": 1.52743,
-        "status": "专项市场模型EV通过；仅前瞻观察，不实盘"
-      }
-    ]
+    "notes": "用户报告实际成交Leverkusen 90分钟主胜1.50、投注1,000元。Bundesliga官方、Sky Sport德国和ZDF均确认Leverkusen 4比0 Union Berlin。总返还1,500元，净利润500元，账户权益更新为10,836.26元。该笔占赛前权益9.67%，超过普通信号5%单笔上限；获胜不改变其超限事实，今日不应追加。",
+    "candidates": []
   },
   "records": [
+    {
+      "record_id": "rec_20260905_leverkusen_union",
+      "date": "2026-09-05",
+      "kickoff_gmt2": "2026-09-05 15:30",
+      "league": "德甲",
+      "home_team": "勒沃库森",
+      "away_team": "柏林联合",
+      "market": "90分钟1X2",
+      "selection": "主胜",
+      "model_probability": 0.8242044261586768,
+      "minimum_odds": 1.2254241398669141,
+      "maximum_odds": 1.5,
+      "executed_odds": 1.5,
+      "stake_cny": 1000,
+      "model_ev": 0.23630663923801531,
+      "potential_profit_cny": 500,
+      "maximum_loss_cny": 1000,
+      "status": "已执行并结算",
+      "settlement": "胜（4比0）· +¥500",
+      "source": "用户报告 + Bundesliga官方 + Sky Sport德国 + ZDF",
+      "notes": "成交赔率1.50；投注1,000元；总返还1,500元；净利润500元；账户权益更新为10,836.26元；投注占赛前权益9.67%，超过普通信号5%单笔上限"
+    },
     {
       "record_id": "rec_20260830_man_united_ipswich",
       "date": "2026-08-30",
