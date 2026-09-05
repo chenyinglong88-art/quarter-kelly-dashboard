@@ -1,24 +1,61 @@
 {
-  "updated_at": "2026-09-05T22:19:39+02:00",
+  "updated_at": "2026-09-05T23:40:00+02:00",
   "account": {
     "bankroll_equity_cny": 10836.26,
     "available_cash_cny": 10836.26,
     "historical_peak_cny": 10836.26,
     "open_exposure_cny": 0,
-    "daily_cap_cny": 1240.35,
-    "remaining_daily_cap_cny": 240.35,
+    "daily_cap_cny": 1300.35,
+    "remaining_daily_cap_cny": 1300.35,
     "drawdown_pct": 0,
     "drawdown_regime": "正常",
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-09-05",
-    "strategy": "正式B版1X2 + R8/锁定扩展；真实执行按用户报告登记，赛果由官方及多来源交叉核验",
-    "fixtures_checked": 108,
-    "status": "Leverkusen主胜已结算获胜；今日无剩余推荐",
+    "date": "2026-09-06",
+    "strategy": "正式B版低价1X2 + 锁定英超/西甲主胜扩展 + 总分≥84；动态贝叶斯作分歧提示；平局、亚洲-1.25与任意半场胜按独立权限复核",
+    "fixtures_checked": 15,
+    "status": "明日无正式推荐；4场仅作模型或平局观察",
     "approved_stake_cny": 0,
-    "notes": "用户报告实际成交Leverkusen 90分钟主胜1.50、投注1,000元。Bundesliga官方、Sky Sport德国和ZDF均确认Leverkusen 4比0 Union Berlin。总返还1,500元，净利润500元，账户权益更新为10,836.26元。该笔占赛前权益9.67%，超过普通信号5%单笔上限；获胜不改变其超限事实，今日不应追加。",
-    "candidates": []
+    "notes": "五大联赛15场已完成B版、动态贝叶斯和实时赔率复核。没有任何比赛属于锁定正式价格与方向信号。Strasbourg客胜与B版概率差异异常大，但贝叶斯仅44.36%，拒绝；Juventus主胜2.16、Manchester United客胜2.17均不属于锁定正式策略；Valencia—Barcelona平局6.00只有表面正EV，独立平局总分84无法验证。亚洲-1.25与任意半场胜均未通过。",
+    "candidates": [
+      {
+        "league": "意甲",
+        "match": "Juventus vs Milan",
+        "selection": "90分钟Juventus主胜",
+        "model_probability": 0.6147856666726932,
+        "public_odds": "约2.16",
+        "minimum_odds": 1.6428489711971694,
+        "status": "模型价格观察；超出锁定正式价格窗，不下注"
+      },
+      {
+        "league": "法甲",
+        "match": "Troyes vs Strasbourg",
+        "selection": "90分钟Strasbourg客胜",
+        "model_probability": 0.7490050645505727,
+        "public_odds": "约2.35",
+        "minimum_odds": 1.3484555015739883,
+        "status": "B版与贝叶斯概率差30.54个百分点；拒绝"
+      },
+      {
+        "league": "英超",
+        "match": "Everton vs Manchester United",
+        "selection": "90分钟Manchester United客胜",
+        "model_probability": 0.4872205492627137,
+        "public_odds": "约2.17",
+        "minimum_odds": 2.072983172668686,
+        "status": "小幅表面正EV；锁定扩展仅主胜，不下注"
+      },
+      {
+        "league": "西甲",
+        "match": "Valencia vs Barcelona",
+        "selection": "90分钟平局",
+        "model_probability": 0.2100128301737839,
+        "public_odds": "约6.00",
+        "minimum_odds": 4.809229984493011,
+        "status": "平局表面EV观察；总分84不可验证，不下注"
+      }
+    ]
   },
   "records": [
     {
