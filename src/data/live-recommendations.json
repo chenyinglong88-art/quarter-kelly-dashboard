@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T23:40:00+02:00",
+  "updated_at": "2026-09-07T00:50:24+02:00",
   "account": {
     "bankroll_equity_cny": 10836.26,
     "available_cash_cny": 10836.26,
@@ -12,48 +12,48 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-09-06",
+    "date": "2026-09-07",
     "strategy": "正式B版低价1X2 + 锁定英超/西甲主胜扩展 + 总分≥84；动态贝叶斯作分歧提示；平局、亚洲-1.25与任意半场胜按独立权限复核",
-    "fixtures_checked": 15,
-    "status": "明日无正式推荐；4场仅作模型或平局观察",
+    "fixtures_checked": 39,
+    "status": "今日无正式推荐；4场仅作模型或价格观察",
     "approved_stake_cny": 0,
-    "notes": "五大联赛15场已完成B版、动态贝叶斯和实时赔率复核。没有任何比赛属于锁定正式价格与方向信号。Strasbourg客胜与B版概率差异异常大，但贝叶斯仅44.36%，拒绝；Juventus主胜2.16、Manchester United客胜2.17均不属于锁定正式策略；Valencia—Barcelona平局6.00只有表面正EV，独立平局总分84无法验证。亚洲-1.25与任意半场胜均未通过。",
+    "notes": "今日39场职业赛事完成赔率筛选，五大联赛4场完成B版、动态贝叶斯与实时赔率复核。Cagliari是唯一两模型方向一致场次但主胜EV为负；Getafe—Celta平局只有+0.77%表面EV，未达到1%门槛；Lazio客胜与Elche主胜均出现两模型方向相反。亚洲-1.25与任意半场胜无合格信号，正式批准0场。",
     "candidates": [
       {
         "league": "意甲",
-        "match": "Juventus vs Milan",
-        "selection": "90分钟Juventus主胜",
-        "model_probability": 0.6147856666726932,
-        "public_odds": "约2.16",
-        "minimum_odds": 1.6428489711971694,
-        "status": "模型价格观察；超出锁定正式价格窗，不下注"
-      },
-      {
-        "league": "法甲",
-        "match": "Troyes vs Strasbourg",
-        "selection": "90分钟Strasbourg客胜",
-        "model_probability": 0.7490050645505727,
-        "public_odds": "约2.35",
-        "minimum_odds": 1.3484555015739883,
-        "status": "B版与贝叶斯概率差30.54个百分点；拒绝"
-      },
-      {
-        "league": "英超",
-        "match": "Everton vs Manchester United",
-        "selection": "90分钟Manchester United客胜",
-        "model_probability": 0.4872205492627137,
-        "public_odds": "约2.17",
-        "minimum_odds": 2.072983172668686,
-        "status": "小幅表面正EV；锁定扩展仅主胜，不下注"
+        "match": "Cagliari vs Lecce",
+        "selection": "90分钟Cagliari主胜",
+        "model_probability": 0.394909,
+        "public_odds": "约1.98–2.08",
+        "minimum_odds": 2.55755,
+        "status": "两模型同向但B版EV -17.86%；拒绝"
       },
       {
         "league": "西甲",
-        "match": "Valencia vs Barcelona",
+        "match": "Getafe vs Celta Vigo",
         "selection": "90分钟平局",
-        "model_probability": 0.2100128301737839,
-        "public_odds": "约6.00",
-        "minimum_odds": 4.809229984493011,
-        "status": "平局表面EV观察；总分84不可验证，不下注"
+        "model_probability": 0.3499,
+        "public_odds": "约2.88",
+        "minimum_odds": 2.886543,
+        "status": "表面EV +0.77%，未达到1%门槛；贝叶斯偏主胜，拒绝"
+      },
+      {
+        "league": "意甲",
+        "match": "Udinese vs Lazio",
+        "selection": "90分钟Lazio客胜",
+        "model_probability": 0.420515,
+        "public_odds": "约2.60",
+        "minimum_odds": 2.401814,
+        "status": "表面EV +9.33%，但两模型方向相反且非锁定客胜策略；拒绝"
+      },
+      {
+        "league": "西甲",
+        "match": "Elche vs Real Sociedad",
+        "selection": "90分钟Elche主胜",
+        "model_probability": 0.516185,
+        "public_odds": "约3.20",
+        "minimum_odds": 1.956662,
+        "status": "表面EV异常高但两模型方向相反，市场偏Sociedad；拒绝"
       }
     ]
   },
