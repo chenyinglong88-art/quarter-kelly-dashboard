@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T00:50:24+02:00",
+  "updated_at": "2026-09-07T02:30:47+02:00",
   "account": {
     "bankroll_equity_cny": 10836.26,
     "available_cash_cny": 10836.26,
@@ -12,48 +12,57 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-09-07",
-    "strategy": "正式B版低价1X2 + 锁定英超/西甲主胜扩展 + 总分≥84；动态贝叶斯作分歧提示；平局、亚洲-1.25与任意半场胜按独立权限复核",
-    "fixtures_checked": 39,
-    "status": "今日无正式推荐；4场仅作模型或价格观察",
+    "date": "2026-09-08至2026-09-21",
+    "strategy": "两周冻结状态前瞻：正式B版低价1X2 + 锁定英超/西甲主胜扩展 + 总分≥84；动态贝叶斯作分歧提示；平局、亚洲-1.25与任意半场胜按独立权限临场复核",
+    "fixtures_checked": 297,
+    "status": "未来两周5场A级、12场B级观察；当前0场正式批准",
     "approved_stake_cny": 0,
-    "notes": "今日39场职业赛事完成赔率筛选，五大联赛4场完成B版、动态贝叶斯与实时赔率复核。Cagliari是唯一两模型方向一致场次但主胜EV为负；Getafe—Celta平局只有+0.77%表面EV，未达到1%门槛；Lazio客胜与Elche主胜均出现两模型方向相反。亚洲-1.25与任意半场胜无合格信号，正式批准0场。",
+    "notes": "已核验14个比赛日297场职业男子赛事，五大联赛冻结模型覆盖105场。A级仅表示模型一致、存在价格窗口，不等于总分84或已批准。远期赔率与首发未稳定，所有候选必须在比赛日上午及开球前60–90分钟再次刷新。",
     "candidates": [
       {
+        "league": "西甲",
+        "match": "Real Madrid vs Vallecano",
+        "selection": "90分钟Real Madrid主胜",
+        "model_probability": 0.748293,
+        "public_odds": "远期价格未开放",
+        "minimum_odds": 1.349739,
+        "status": "A级价格等待；仅1.350–1.50且总分≥84时复核"
+      },
+      {
+        "league": "法甲",
+        "match": "Lille vs Troyes",
+        "selection": "90分钟Lille主胜",
+        "model_probability": 0.678677,
+        "public_odds": "远期价格未开放",
+        "minimum_odds": 1.488189,
+        "status": "A级价格等待；合格窗口仅1.488–1.50"
+      },
+      {
         "league": "意甲",
-        "match": "Cagliari vs Lecce",
-        "selection": "90分钟Cagliari主胜",
-        "model_probability": 0.394909,
-        "public_odds": "约1.98–2.08",
-        "minimum_odds": 2.55755,
-        "status": "两模型同向但B版EV -17.86%；拒绝"
+        "match": "Inter vs Udinese",
+        "selection": "90分钟Inter主胜",
+        "model_probability": 0.75846,
+        "public_odds": "当前约1.25",
+        "minimum_odds": 1.331646,
+        "status": "A级模型观察；现价低于价值线，当前拒绝"
       },
       {
         "league": "西甲",
-        "match": "Getafe vs Celta Vigo",
-        "selection": "90分钟平局",
-        "model_probability": 0.3499,
-        "public_odds": "约2.88",
-        "minimum_odds": 2.886543,
-        "status": "表面EV +0.77%，未达到1%门槛；贝叶斯偏主胜，拒绝"
+        "match": "Barcelona vs Racing Santander",
+        "selection": "90分钟Barcelona主胜",
+        "model_probability": 0.750441,
+        "public_odds": "远期价格未开放",
+        "minimum_odds": 1.345875,
+        "status": "A级价格等待；仅1.346–1.50且总分≥84时复核"
       },
       {
         "league": "意甲",
-        "match": "Udinese vs Lazio",
-        "selection": "90分钟Lazio客胜",
-        "model_probability": 0.420515,
-        "public_odds": "约2.60",
-        "minimum_odds": 2.401814,
-        "status": "表面EV +9.33%，但两模型方向相反且非锁定客胜策略；拒绝"
-      },
-      {
-        "league": "西甲",
-        "match": "Elche vs Real Sociedad",
-        "selection": "90分钟Elche主胜",
-        "model_probability": 0.516185,
-        "public_odds": "约3.20",
-        "minimum_odds": 1.956662,
-        "status": "表面EV异常高但两模型方向相反，市场偏Sociedad；拒绝"
+        "match": "Milan vs Lecce",
+        "selection": "90分钟Milan主胜",
+        "model_probability": 0.67624,
+        "public_odds": "远期价格未开放",
+        "minimum_odds": 1.493552,
+        "status": "A级价格等待；合格窗口仅1.494–1.50"
       }
     ]
   },
