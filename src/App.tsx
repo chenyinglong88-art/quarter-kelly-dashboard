@@ -470,15 +470,15 @@ function App() {
                 league: string;
                 match: string;
                 selection: string;
-                model_probability: number;
+                model_probability: number | null;
                 public_odds: string;
-                minimum_odds: number;
+                minimum_odds: number | null;
                 status: string;
               }>).map((candidate) => (
                 <div key={candidate.match}>
                   <span>{candidate.league} · {candidate.match}</span>
-                  <b>{candidate.selection} · B版 {formatPercent(candidate.model_probability, 1)}</b>
-                  <small>公开价 {candidate.public_odds} · 最低 {candidate.minimum_odds.toFixed(3)} · {candidate.status}</small>
+                  <b>{candidate.selection} · {candidate.model_probability == null ? "正式模型未覆盖" : `B版 ${formatPercent(candidate.model_probability, 1)}`}</b>
+                  <small>公开价 {candidate.public_odds} · {candidate.minimum_odds == null ? "最低价待模型验证" : `最低 ${candidate.minimum_odds.toFixed(3)}`} · {candidate.status}</small>
                 </div>
               ))}
             </div>

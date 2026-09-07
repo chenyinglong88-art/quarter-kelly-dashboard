@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T02:30:47+02:00",
+  "updated_at": "2026-09-07T23:22:42+02:00",
   "account": {
     "bankroll_equity_cny": 10836.26,
     "available_cash_cny": 10836.26,
@@ -12,57 +12,57 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-09-08至2026-09-21",
-    "strategy": "两周冻结状态前瞻：正式B版低价1X2 + 锁定英超/西甲主胜扩展 + 总分≥84；动态贝叶斯作分歧提示；平局、亚洲-1.25与任意半场胜按独立权限临场复核",
-    "fixtures_checked": 297,
-    "status": "未来两周5场A级、12场B级观察；当前0场正式批准",
+    "date": "2026-09-08",
+    "strategy": "正式B版低价1X2 + R8/锁定扩展 + 总分≥84；欧冠、杯赛及其他联赛不强行套用五大联赛模型；亚洲-1.25与任意半场胜按独立权限复核",
+    "fixtures_checked": 21,
+    "status": "明日无正式推荐；5场仅作市场观察",
     "approved_stake_cny": 0,
-    "notes": "已核验14个比赛日297场职业男子赛事，五大联赛冻结模型覆盖105场。A级仅表示模型一致、存在价格窗口，不等于总分84或已批准。远期赔率与首发未稳定，所有候选必须在比赛日上午及开球前60–90分钟再次刷新。",
+    "notes": "9月8日没有五大联赛常规联赛场次。21场赔率已完成两轮复核，但欧冠、英冠和杯赛均缺少经过留出验证的正式概率与总分84评分链；亚洲-1.25及任意半场胜也没有价格与模型同时合格的信号。",
     "candidates": [
       {
-        "league": "西甲",
-        "match": "Real Madrid vs Vallecano",
+        "league": "欧冠",
+        "match": "Real Madrid vs Inter",
         "selection": "90分钟Real Madrid主胜",
-        "model_probability": 0.748293,
-        "public_odds": "远期价格未开放",
-        "minimum_odds": 1.349739,
-        "status": "A级价格等待；仅1.350–1.50且总分≥84时复核"
+        "model_probability": null,
+        "public_odds": "约1.61–1.65",
+        "minimum_odds": null,
+        "status": "价格合格，但欧冠跨联赛模型与84分不可验证；不批准"
       },
       {
-        "league": "法甲",
-        "match": "Lille vs Troyes",
-        "selection": "90分钟Lille主胜",
-        "model_probability": 0.678677,
-        "public_odds": "远期价格未开放",
-        "minimum_odds": 1.488189,
-        "status": "A级价格等待；合格窗口仅1.488–1.50"
+        "league": "欧冠",
+        "match": "Porto vs Manchester City",
+        "selection": "90分钟Manchester City客胜",
+        "model_probability": null,
+        "public_odds": "约1.70",
+        "minimum_odds": null,
+        "status": "跨联赛强弱标尺未验证；不批准"
       },
       {
-        "league": "意甲",
-        "match": "Inter vs Udinese",
-        "selection": "90分钟Inter主胜",
-        "model_probability": 0.75846,
-        "public_odds": "当前约1.25",
-        "minimum_odds": 1.331646,
-        "status": "A级模型观察；现价低于价值线，当前拒绝"
+        "league": "欧冠",
+        "match": "Dortmund vs Villarreal",
+        "selection": "90分钟Dortmund主胜",
+        "model_probability": null,
+        "public_odds": "1.82",
+        "minimum_odds": null,
+        "status": "任意半场胜仅1.39且无欧冠正式模型；不批准"
       },
       {
-        "league": "西甲",
-        "match": "Barcelona vs Racing Santander",
-        "selection": "90分钟Barcelona主胜",
-        "model_probability": 0.750441,
-        "public_odds": "远期价格未开放",
-        "minimum_odds": 1.345875,
-        "status": "A级价格等待；仅1.346–1.50且总分≥84时复核"
+        "league": "英格兰联赛杯",
+        "match": "Crystal Palace vs Middlesbrough",
+        "selection": "90分钟Crystal Palace主胜",
+        "model_probability": null,
+        "public_odds": "约1.66–1.70",
+        "minimum_odds": null,
+        "status": "杯赛轮换风险且近期状态未形成强支持；不批准"
       },
       {
-        "league": "意甲",
-        "match": "Milan vs Lecce",
-        "selection": "90分钟Milan主胜",
-        "model_probability": 0.67624,
-        "public_odds": "远期价格未开放",
-        "minimum_odds": 1.493552,
-        "status": "A级价格等待；合格窗口仅1.494–1.50"
+        "league": "荷甲",
+        "match": "NEC Nijmegen vs Excelsior",
+        "selection": "NEC -1.25亚洲盘",
+        "model_probability": null,
+        "public_odds": "约1.95（盘口来源有分歧）",
+        "minimum_odds": null,
+        "status": "外部盘口证据偏Excelsior +1.25，且无冻结亚洲盘模型；拒绝"
       }
     ]
   },
