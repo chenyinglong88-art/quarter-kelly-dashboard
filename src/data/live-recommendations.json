@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T23:22:42+02:00",
+  "updated_at": "2026-09-09T01:25:50+02:00",
   "account": {
     "bankroll_equity_cny": 10836.26,
     "available_cash_cny": 10836.26,
@@ -12,57 +12,48 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-09-08",
+    "date": "2026-09-09",
     "strategy": "正式B版低价1X2 + R8/锁定扩展 + 总分≥84；欧冠、杯赛及其他联赛不强行套用五大联赛模型；亚洲-1.25与任意半场胜按独立权限复核",
     "fixtures_checked": 21,
-    "status": "明日无正式推荐；5场仅作市场观察",
+    "status": "今日无正式推荐；4场仅作重点市场观察",
     "approved_stake_cny": 0,
-    "notes": "9月8日没有五大联赛常规联赛场次。21场赔率已完成两轮复核，但欧冠、英冠和杯赛均缺少经过留出验证的正式概率与总分84评分链；亚洲-1.25及任意半场胜也没有价格与模型同时合格的信号。",
+    "notes": "截至01:13已排除00:00开球的比赛，并对21场尚未开赛赛事完成赔率复核。今天没有五大联赛常规联赛场次；欧冠、英冠和杯赛缺少经过留出验证的正式概率与总分84评分链，亚洲-1.25及任意半场胜也没有模型与价格同时合格的信号。",
     "candidates": [
       {
-        "league": "欧冠",
-        "match": "Real Madrid vs Inter",
-        "selection": "90分钟Real Madrid主胜",
-        "model_probability": null,
-        "public_odds": "约1.61–1.65",
-        "minimum_odds": null,
-        "status": "价格合格，但欧冠跨联赛模型与84分不可验证；不批准"
-      },
-      {
-        "league": "欧冠",
-        "match": "Porto vs Manchester City",
-        "selection": "90分钟Manchester City客胜",
-        "model_probability": null,
-        "public_odds": "约1.70",
-        "minimum_odds": null,
-        "status": "跨联赛强弱标尺未验证；不批准"
-      },
-      {
-        "league": "欧冠",
-        "match": "Dortmund vs Villarreal",
-        "selection": "90分钟Dortmund主胜",
-        "model_probability": null,
-        "public_odds": "1.82",
-        "minimum_odds": null,
-        "status": "任意半场胜仅1.39且无欧冠正式模型；不批准"
-      },
-      {
         "league": "英格兰联赛杯",
-        "match": "Crystal Palace vs Middlesbrough",
-        "selection": "90分钟Crystal Palace主胜",
+        "match": "Chelsea vs Leeds United",
+        "selection": "90分钟Chelsea主胜",
         "model_probability": null,
-        "public_odds": "约1.66–1.70",
+        "public_odds": "约1.61–1.67",
         "minimum_odds": null,
-        "status": "杯赛轮换风险且近期状态未形成强支持；不批准"
+        "status": "杯赛轮换且正式模型与84分不可验证；不批准"
       },
       {
-        "league": "荷甲",
-        "match": "NEC Nijmegen vs Excelsior",
-        "selection": "NEC -1.25亚洲盘",
+        "league": "欧冠",
+        "match": "Liverpool vs Atlético Madrid",
+        "selection": "90分钟Liverpool主胜",
         "model_probability": null,
-        "public_odds": "约1.95（盘口来源有分歧）",
+        "public_odds": "约1.67–1.70",
         "minimum_odds": null,
-        "status": "外部盘口证据偏Excelsior +1.25，且无冻结亚洲盘模型；拒绝"
+        "status": "欧冠跨联赛模型与84分不可验证；不批准"
+      },
+      {
+        "league": "欧冠",
+        "match": "Napoli vs Arsenal",
+        "selection": "90分钟Arsenal客胜",
+        "model_probability": null,
+        "public_odds": "约1.71–1.79",
+        "minimum_odds": null,
+        "status": "任意半场胜仅1.36且无正式欧冠模型；不批准"
+      },
+      {
+        "league": "欧冠",
+        "match": "Sporting CP vs Galatasaray",
+        "selection": "90分钟Sporting主胜",
+        "model_probability": null,
+        "public_odds": "约1.79–1.81",
+        "minimum_odds": null,
+        "status": "价格达到1.50，但正式跨联赛模型与84分不可验证；不批准"
       }
     ]
   },
