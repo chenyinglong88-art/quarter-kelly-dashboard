@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T01:08:14+02:00",
+  "updated_at": "2026-09-11T01:29:40+02:00",
   "account": {
     "bankroll_equity_cny": 10836.26,
     "available_cash_cny": 10836.26,
@@ -12,48 +12,44 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-09-12",
-    "strategy": "正式B版低价1X2 + R8/锁定英超西甲主胜扩展 + 总分≥84；亚洲-1.25与任意半场胜按独立观察权限复核",
-    "fixtures_checked": 25,
-    "status": "明日0场最终批准；Crystal Palace主胜为唯一临场条件候选",
+    "date": "2026-09-11",
+    "strategy": "正式B版低价1X2 + R8/锁定英超西甲主胜扩展 + 总分≥84；平局、亚洲-1.25与任意半场胜按独立权限复核",
+    "fixtures_checked": 40,
+    "status": "今日0场正式批准；建议空仓",
     "approved_stake_cny": 0,
-    "notes": "25场五大联赛均已刷新B版与动态贝叶斯概率。Crystal Palace主胜在1.810–2.00区间具备英超扩展价格与模型EV条件，但冻结流程尚无可验证的v3.6总分84字段，且最终首发未确认，因此当前只标记为条件等待，不能提前下注。",
+    "notes": "40场主要职业赛事已完成实时赔率核查；五大联赛4场已刷新B版与动态贝叶斯。Union与Venezia虽显示正模型EV，但赔率超出对应正式策略权限；Sevilla与Rennes场次两模型头号方向相反。非五大联赛热门缺少冻结模型和总分84评分链，因此全部拒绝。",
     "candidates": [
       {
-        "league": "英超",
-        "match": "Crystal Palace vs Ipswich Town",
-        "selection": "90分钟Crystal Palace主胜",
-        "model_probability": 0.557909417003879,
-        "public_odds": "1.880–1.884",
-        "minimum_odds": 1.8103297223839077,
-        "status": "唯一条件候选；价格与EV通过，但总分84和最终首发仍待核验；当前不批准"
+        "league": "德甲",
+        "match": "Union Berlin vs Schalke 04",
+        "selection": "90分钟Union Berlin主胜",
+        "model_probability": 0.645503977,
+        "public_odds": "2.17–2.38",
+        "minimum_odds": 1.564668,
+        "status": "模型同向但超过正式1.50上限；德甲不在锁定扩展权限内，拒绝"
       },
       {
-        "league": "西甲",
-        "match": "Real Madrid vs Rayo Vallecano",
-        "selection": "90分钟Real Madrid主胜",
-        "model_probability": 0.7451070286737075,
-        "public_odds": "1.126",
-        "minimum_odds": 1.3555099618343458,
-        "status": "赔率过低，模型EV约-16.10%；拒绝"
+        "league": "意甲",
+        "match": "Venezia vs Fiorentina",
+        "selection": "90分钟Venezia主胜",
+        "model_probability": 0.6155965,
+        "public_odds": "2.80–3.16",
+        "minimum_odds": 1.640683,
+        "status": "赔率过高且市场方向相反；意甲不在锁定扩展权限内，拒绝"
       },
       {
-        "league": "英超",
-        "match": "Liverpool vs Fulham",
-        "selection": "90分钟Liverpool主胜",
-        "model_probability": 0.5660145212468862,
-        "public_odds": "1.45–1.48",
-        "minimum_odds": 1.7844065162410465,
-        "status": "1X2、-1.25亚洲盘与任意半场胜均不合格；拒绝"
+        "league": "英冠",
+        "match": "West Ham United vs Wrexham",
+        "selection": "90分钟West Ham主胜",
+        "public_odds": "1.55–1.61",
+        "status": "只满足价格结构；缺少冻结英冠模型与总分84，市场观察、不下注"
       },
       {
-        "league": "西甲",
-        "match": "Osasuna vs Espanyol",
-        "selection": "90分钟Osasuna主胜",
-        "model_probability": 0.6013293812931133,
-        "public_odds": "2.17",
-        "minimum_odds": 1.6796119255441526,
-        "status": "超过锁定扩展2.00上限且贝叶斯明显降温；拒绝"
+        "league": "奥甲",
+        "match": "Ried vs Red Bull Salzburg",
+        "selection": "90分钟Salzburg客胜",
+        "public_odds": "1.55–1.57",
+        "status": "只满足价格结构；缺少冻结奥甲模型与总分84，市场观察、不下注"
       }
     ]
   },
