@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T01:25:50+02:00",
+  "updated_at": "2026-09-11T01:08:14+02:00",
   "account": {
     "bankroll_equity_cny": 10836.26,
     "available_cash_cny": 10836.26,
@@ -12,48 +12,48 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-09-09",
-    "strategy": "正式B版低价1X2 + R8/锁定扩展 + 总分≥84；欧冠、杯赛及其他联赛不强行套用五大联赛模型；亚洲-1.25与任意半场胜按独立权限复核",
-    "fixtures_checked": 21,
-    "status": "今日无正式推荐；4场仅作重点市场观察",
+    "date": "2026-09-12",
+    "strategy": "正式B版低价1X2 + R8/锁定英超西甲主胜扩展 + 总分≥84；亚洲-1.25与任意半场胜按独立观察权限复核",
+    "fixtures_checked": 25,
+    "status": "明日0场最终批准；Crystal Palace主胜为唯一临场条件候选",
     "approved_stake_cny": 0,
-    "notes": "截至01:13已排除00:00开球的比赛，并对21场尚未开赛赛事完成赔率复核。今天没有五大联赛常规联赛场次；欧冠、英冠和杯赛缺少经过留出验证的正式概率与总分84评分链，亚洲-1.25及任意半场胜也没有模型与价格同时合格的信号。",
+    "notes": "25场五大联赛均已刷新B版与动态贝叶斯概率。Crystal Palace主胜在1.810–2.00区间具备英超扩展价格与模型EV条件，但冻结流程尚无可验证的v3.6总分84字段，且最终首发未确认，因此当前只标记为条件等待，不能提前下注。",
     "candidates": [
       {
-        "league": "英格兰联赛杯",
-        "match": "Chelsea vs Leeds United",
-        "selection": "90分钟Chelsea主胜",
-        "model_probability": null,
-        "public_odds": "约1.61–1.67",
-        "minimum_odds": null,
-        "status": "杯赛轮换且正式模型与84分不可验证；不批准"
+        "league": "英超",
+        "match": "Crystal Palace vs Ipswich Town",
+        "selection": "90分钟Crystal Palace主胜",
+        "model_probability": 0.557909417003879,
+        "public_odds": "1.880–1.884",
+        "minimum_odds": 1.8103297223839077,
+        "status": "唯一条件候选；价格与EV通过，但总分84和最终首发仍待核验；当前不批准"
       },
       {
-        "league": "欧冠",
-        "match": "Liverpool vs Atlético Madrid",
+        "league": "西甲",
+        "match": "Real Madrid vs Rayo Vallecano",
+        "selection": "90分钟Real Madrid主胜",
+        "model_probability": 0.7451070286737075,
+        "public_odds": "1.126",
+        "minimum_odds": 1.3555099618343458,
+        "status": "赔率过低，模型EV约-16.10%；拒绝"
+      },
+      {
+        "league": "英超",
+        "match": "Liverpool vs Fulham",
         "selection": "90分钟Liverpool主胜",
-        "model_probability": null,
-        "public_odds": "约1.67–1.70",
-        "minimum_odds": null,
-        "status": "欧冠跨联赛模型与84分不可验证；不批准"
+        "model_probability": 0.5660145212468862,
+        "public_odds": "1.45–1.48",
+        "minimum_odds": 1.7844065162410465,
+        "status": "1X2、-1.25亚洲盘与任意半场胜均不合格；拒绝"
       },
       {
-        "league": "欧冠",
-        "match": "Napoli vs Arsenal",
-        "selection": "90分钟Arsenal客胜",
-        "model_probability": null,
-        "public_odds": "约1.71–1.79",
-        "minimum_odds": null,
-        "status": "任意半场胜仅1.36且无正式欧冠模型；不批准"
-      },
-      {
-        "league": "欧冠",
-        "match": "Sporting CP vs Galatasaray",
-        "selection": "90分钟Sporting主胜",
-        "model_probability": null,
-        "public_odds": "约1.79–1.81",
-        "minimum_odds": null,
-        "status": "价格达到1.50，但正式跨联赛模型与84分不可验证；不批准"
+        "league": "西甲",
+        "match": "Osasuna vs Espanyol",
+        "selection": "90分钟Osasuna主胜",
+        "model_probability": 0.6013293812931133,
+        "public_odds": "2.17",
+        "minimum_odds": 1.6796119255441526,
+        "status": "超过锁定扩展2.00上限且贝叶斯明显降温；拒绝"
       }
     ]
   },
