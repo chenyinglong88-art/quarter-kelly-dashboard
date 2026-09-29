@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T00:27:00+02:00",
+  "updated_at": "2026-09-29T11:10:00+02:00",
   "account": {
     "bankroll_equity_cny": 10836.26,
     "available_cash_cny": 10836.26,
@@ -12,67 +12,78 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-09-27至10-02",
+    "date": "2026-09-29至10-05",
     "strategy": "欧国联非正式观察：已完成赛果 + 最新90分钟完整1X2 + 官方确认伤停；无冻结国家队模型和可复现84分评分链",
-    "fixtures_checked": 36,
-    "status": "9月27日8场全部终场；Croatia与Austria观察均命中；未来3项重点观察；正式批准0场",
+    "fixtures_checked": 50,
+    "status": "9月28日Sweden主胜命中；今日2场低优先观察；正式批准0场",
     "approved_stake_cny": 0,
-    "notes": "9月27日8场全部终场：Germany 0-1 Greece、Israel 0-3 Ireland、Norway 1-2 Portugal等。9月26日Croatia客胜2-1命中，9月27日Austria主胜3-1命中；两场均未批准、未下注。Ukraine、Montenegro与France方向已排除。",
+    "notes": "9月28日三项重点观察为1中2失：Sweden主胜3-1命中，Northern Ireland主胜0-0与Romania主胜2-4未命中；均未批准、未下注。累计观察4胜4负。10月3日至5日24场等待前一轮结果后再刷新。",
     "candidates": [
-      {
-        "league": "欧国联B4 · 9月28日20:45",
-        "match": "Sweden vs Poland",
-        "selection": "90分钟Sweden主胜｜第一条件观察",
-        "model_probability": null,
-        "probability_label": "正式模型",
-        "public_odds": "2.05（完整1X2：2.05/3.50/3.20）",
-        "minimum_odds": 1.8,
-        "minimum_odds_label": "观察底价",
-        "status": "Sweden首轮2-1、Poland首轮0-0；等官方首发和最终伤停；未批准"
-      },
       {
         "league": "欧国联B1 · 9月29日20:45",
         "match": "Scotland vs Switzerland",
-        "selection": "90分钟Switzerland客胜｜第二条件观察",
+        "selection": "90分钟Switzerland客胜｜今日第一低优先观察",
         "model_probability": null,
         "probability_label": "正式模型",
-        "public_odds": "1.91（完整1X2：3.90/3.40/1.91）",
+        "public_odds": "1.833（完整1X2：4.30/3.35/1.833）",
         "minimum_odds": 1.8,
         "minimum_odds_label": "观察底价",
-        "status": "Swiss首轮客场3-0；双方多名核心缺阵；等官方首发，未批准"
+        "status": "Scotland缺McTominay、Adams；Swiss核心名单需等首发确认；未批准"
       },
       {
         "league": "欧国联B1 · 9月29日20:45",
         "match": "Slovenia vs North Macedonia",
-        "selection": "90分钟Slovenia主胜｜第三条件观察",
+        "selection": "90分钟Slovenia主胜｜今日第二低优先观察",
         "model_probability": null,
         "probability_label": "正式模型",
         "public_odds": "1.625（完整1X2：1.625/3.60/5.25）",
         "minimum_odds": 1.6,
         "minimum_odds_label": "观察底价",
-        "status": "North Macedonia首轮0-3；Slovenia缺Šeško且首轮后段乏力；未批准"
+        "status": "Slovenia缺Šeško、Zaletel、Prelec；Drkušić待确认；未批准"
       },
       {
-        "league": "欧国联B2 · 9月28日20:45",
-        "match": "Northern Ireland vs Hungary",
-        "selection": "90分钟Northern Ireland主胜｜高赔率低把握",
+        "league": "欧国联A4 · 10月1日20:45",
+        "match": "Denmark vs Portugal",
+        "selection": "90分钟Portugal客胜｜等待临场复核",
         "model_probability": null,
         "probability_label": "正式模型",
-        "public_odds": "2.65（完整1X2：2.65/2.95/2.75）",
-        "minimum_odds": 2.5,
+        "public_odds": "2.05（完整1X2：3.30/3.50/2.05）",
+        "minimum_odds": 2.0,
         "minimum_odds_label": "观察底价",
-        "status": "首轮靠扑点和99分钟绝杀；Ballard状态未知；双方多人缺阵，未批准"
+        "status": "Portugal两战全胜；Denmark刚主场2-0；Conceição待确认；未批准"
       },
       {
-        "league": "欧国联B4 · 9月28日20:45",
-        "match": "Romania vs Bosnia",
-        "selection": "90分钟Romania主胜｜低优先观察",
+        "league": "欧国联B3 · 10月1日20:45",
+        "match": "Republic of Ireland vs Austria",
+        "selection": "90分钟Austria客胜｜等待临场复核",
         "model_probability": null,
         "probability_label": "正式模型",
-        "public_odds": "2.15（完整1X2：2.15/3.25/3.20）",
+        "public_odds": "2.15（完整1X2：3.50/3.30/2.15）",
         "minimum_odds": 2.1,
         "minimum_odds_label": "观察底价",
-        "status": "Romania首轮仅1次射正且本场闭门；Bosnia首轮客场零封；未批准"
+        "status": "Austria两场3-1；Danso停赛且Wanner、Veratschnig伤退；未批准"
+      },
+      {
+        "league": "欧国联C2 · 10月2日18:00",
+        "match": "Latvia vs Montenegro",
+        "selection": "90分钟Montenegro客胜｜等待临场复核",
+        "model_probability": null,
+        "probability_label": "正式模型",
+        "public_odds": "1.74（完整1X2：4.50/3.30/1.74）",
+        "minimum_odds": 1.7,
+        "minimum_odds_label": "观察底价",
+        "status": "Montenegro两战全胜；Latvia尚未进球；仍缺官方首发和伤停确认；未批准"
+      },
+      {
+        "league": "欧国联A2 · 10月1日20:45",
+        "match": "Greece vs Netherlands",
+        "selection": "90分钟Netherlands客胜｜低优先等待复核",
+        "model_probability": null,
+        "probability_label": "正式模型",
+        "public_odds": "2.15（完整1X2：3.20/3.40/2.15）",
+        "minimum_odds": 2.15,
+        "minimum_odds_label": "观察底价",
+        "status": "Greece连续客胜；Netherlands确认缺Gakpo；当前安全边际不足；未批准"
       }
     ]
   },
