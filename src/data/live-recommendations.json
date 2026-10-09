@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T21:05:00+02:00",
+  "updated_at": "2026-10-09T12:28:00+02:00",
   "account": {
     "bankroll_equity_cny": 10836.26,
     "available_cash_cny": 10836.26,
@@ -12,12 +12,12 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-10-09至10-12",
+    "date": "2026-10-09至10-15",
     "strategy": "五大联赛B_a0.14滚动xG泊松正式1X2 + 动态贝叶斯风险提示 + DraftKings实时90分钟赔率；可复现总分（英超88/其他84）仍不可用",
     "fixtures_checked": 48,
-    "status": "最近比赛0场正式批准；建议空仓；2场条件观察",
+    "status": "本周0场正式批准；建议空仓；2场条件观察",
     "approved_stake_cny": 0,
-    "notes": "10月6日欧国联晚场已于20:45开球，不追场；10月7–8日无五大联赛。上周欧国联六项观察4中2失（累计8胜6负），真实下注0笔。Lens、Levante等表面高EV场次超出授权且B版与市场概率差距过大，判定为模型风险。",
+    "notes": "10月9日12:25复核：模型按截至10月9日数据重跑（10月6日后五大联赛无新完赛，概率不变），DraftKings赔率重新抓取47/48场。10月13–15日欧冠/欧联/欧协联54场仅市场观察，无冻结跨赛事模型。平局无冻结评分器、无恰好主让−1.25盘口。Lens、Levante、Alavés等表面高EV场次超出授权且B版与市场差距过大，按模型风险处理。",
     "candidates": [
       {
         "league": "英超 · 10月10日18:30",
@@ -25,10 +25,10 @@
         "selection": "90分钟曼联主胜｜排名第1条件观察",
         "model_probability": 0.6173,
         "probability_label": "B版主胜概率",
-        "public_odds": "1.714（DraftKings 1.714/4.20/4.20；英国最高1.727）",
+        "public_odds": "1.714（DraftKings 1.714/4.30/4.40；英国1.667–1.727）",
         "minimum_odds": 1.7,
         "minimum_odds_label": "观察底价",
-        "status": "B版EV +5.82%，贝叶斯EV −4.72%；曼联Sesko、Rashford、Dorgu、Mazraoui伤疑；英超88分评分链不可复现；未批准，0元"
+        "status": "B版EV +5.82%，贝叶斯EV −4.72%；曼联缺Ugarte、De Ligt，Sesko、Dorgu、Mazraoui存疑；热刺缺5人；英超88分评分链不可复现；未批准，0元"
       },
       {
         "league": "德甲 · 10月10日18:30",
@@ -36,10 +36,10 @@
         "selection": "90分钟莱比锡主胜｜排名第2条件观察",
         "model_probability": 0.7084,
         "probability_label": "B版主胜概率",
-        "public_odds": "1.526（DraftKings 1.526/4.50/4.60；英国1.533–1.571）",
+        "public_odds": "1.556（DraftKings 1.556/4.60/4.50；英国1.50–1.615）",
         "minimum_odds": 1.5,
         "minimum_odds_label": "核心上限",
-        "status": "高于德甲核心1.50上限；贝叶斯EV −10.52%、模型差12.2pp；莱比锡缺5人；未批准，0元"
+        "status": "B版EV +10.24%但高于德甲核心1.50上限；贝叶斯EV −8.79%、模型差12.2pp；莱比锡缺Baumgartner、Gruda、Ouédraogo；未批准，0元"
       },
       {
         "league": "法甲/西甲 · 10月9–12日",
@@ -47,10 +47,10 @@
         "selection": "表面高EV主胜｜不授权",
         "model_probability": 0.6894,
         "probability_label": "Lens B版主胜概率（Levante 61.5%）",
-        "public_odds": "Lens 2.40（去水市场39.8%）；Levante 2.65（去水市场35.5%）",
+        "public_odds": "Lens 2.55（去水市场37.5%）；Levante 2.70（去水市场34.9%）",
         "minimum_odds": 2.0,
         "minimum_odds_label": "扩展上限",
-        "status": "超出锁定权限；B版与去水市场相差约26–29pp，按模型风险处理；拒绝"
+        "status": "超出锁定权限；B版与去水市场相差约27–31pp，按模型风险处理；拒绝"
       }
     ]
   },
