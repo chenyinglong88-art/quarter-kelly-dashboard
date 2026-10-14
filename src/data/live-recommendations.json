@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T12:28:00+02:00",
+  "updated_at": "2026-10-14T22:25:00+02:00",
   "account": {
     "bankroll_equity_cny": 10836.26,
     "available_cash_cny": 10836.26,
@@ -12,45 +12,45 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-10-09至10-15",
+    "date": "2026-10-15至10-19",
     "strategy": "五大联赛B_a0.14滚动xG泊松正式1X2 + 动态贝叶斯风险提示 + DraftKings实时90分钟赔率；可复现总分（英超88/其他84）仍不可用",
     "fixtures_checked": 48,
     "status": "本周0场正式批准；建议空仓；2场条件观察",
     "approved_stake_cny": 0,
-    "notes": "10月9日12:25复核：模型按截至10月9日数据重跑（10月6日后五大联赛无新完赛，概率不变），DraftKings赔率重新抓取47/48场。10月13–15日欧冠/欧联/欧协联54场仅市场观察，无冻结跨赛事模型。平局无冻结评分器、无恰好主让−1.25盘口。Lens、Levante、Alavés等表面高EV场次超出授权且B版与市场差距过大，按模型风险处理。",
+    "notes": "10月14日22:17复核：模型按截至10月14日数据重跑，DraftKings赔率47/48场。上周观察：曼联1–1热刺未中、莱比锡6–0法兰克福命中（均未下注）。无恰好主让−1.25盘口；平局快速检验（2022起8,053场）不限赔率留出期ROI −8.68%，3.0–3.6区间仅为新观察假设且本周无信号。10月15日欧联/欧协联36场仅市场观察。",
     "candidates": [
       {
-        "league": "英超 · 10月10日18:30",
-        "match": "Manchester United vs Tottenham",
-        "selection": "90分钟曼联主胜｜排名第1条件观察",
-        "model_probability": 0.6173,
+        "league": "西甲 · 10月18日14:00",
+        "match": "Osasuna vs Racing Santander",
+        "selection": "90分钟奥萨苏纳主胜｜排名第1条件观察",
+        "model_probability": 0.6395,
         "probability_label": "B版主胜概率",
-        "public_odds": "1.714（DraftKings 1.714/4.30/4.40；英国1.667–1.727）",
-        "minimum_odds": 1.7,
-        "minimum_odds_label": "观察底价",
-        "status": "B版EV +5.82%，贝叶斯EV −4.72%；曼联缺Ugarte、De Ligt，Sesko、Dorgu、Mazraoui存疑；热刺缺5人；英超88分评分链不可复现；未批准，0元"
+        "public_odds": "1.952（DraftKings 1.952/3.60/3.65；英国1.87–2.00，交易所2.05）",
+        "minimum_odds": 1.58,
+        "minimum_odds_label": "B版底价",
+        "status": "B版EV +24.85%，贝叶斯43.19%、EV −15.68%，模型差20.8pp；主队近5轮1分失17球，缺Oroz、Barja、Moro、Del Castillo；84分评分不可复现；未批准，0元"
       },
       {
-        "league": "德甲 · 10月10日18:30",
-        "match": "RB Leipzig vs Eintracht Frankfurt",
-        "selection": "90分钟莱比锡主胜｜排名第2条件观察",
-        "model_probability": 0.7084,
+        "league": "英超 · 10月18日15:00",
+        "match": "Bournemouth vs Sunderland",
+        "selection": "90分钟伯恩茅斯主胜｜排名第2条件观察",
+        "model_probability": 0.5896,
         "probability_label": "B版主胜概率",
-        "public_odds": "1.556（DraftKings 1.556/4.60/4.50；英国1.50–1.615）",
-        "minimum_odds": 1.5,
-        "minimum_odds_label": "核心上限",
-        "status": "B版EV +10.24%但高于德甲核心1.50上限；贝叶斯EV −8.79%、模型差12.2pp；莱比锡缺Baumgartner、Gruda、Ouédraogo；未批准，0元"
+        "public_odds": "2.00（DraftKings 2.00/3.55/3.55；英国2.00–2.10）",
+        "minimum_odds": 2.05,
+        "minimum_odds_label": "贝叶斯转正价",
+        "status": "B版EV +17.93%，贝叶斯49.35%、EV −1.30%；≥2.05时双模型同向；伯恩茅斯缺6人，桑德兰缺Brobbey；英超88分评分不可复现；未批准，0元"
       },
       {
-        "league": "法甲/西甲 · 10月9–12日",
-        "match": "Lens vs Lyon（另：Levante vs Sevilla）",
+        "league": "英超/西甲 · 10月16–17日",
+        "match": "Espanyol vs Atlético（另：Everton vs Chelsea）",
         "selection": "表面高EV主胜｜不授权",
-        "model_probability": 0.6894,
-        "probability_label": "Lens B版主胜概率（Levante 61.5%）",
-        "public_odds": "Lens 2.55（去水市场37.5%）；Levante 2.70（去水市场34.9%）",
+        "model_probability": 0.431,
+        "probability_label": "Espanyol B版主胜概率（Everton 45.4%）",
+        "public_odds": "Espanyol 4.60；Everton 3.15",
         "minimum_odds": 2.0,
         "minimum_odds_label": "扩展上限",
-        "status": "超出锁定权限；B版与去水市场相差约27–31pp，按模型风险处理；拒绝"
+        "status": "高于锁定扩展2.00上限；B版明显高于市场，按模型风险处理；拒绝"
       }
     ]
   },
