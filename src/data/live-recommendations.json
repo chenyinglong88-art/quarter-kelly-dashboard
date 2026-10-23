@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T15:42:00+02:00",
+  "updated_at": "2026-10-23T07:05:00+02:00",
   "account": {
     "bankroll_equity_cny": 10836.26,
     "available_cash_cny": 10836.26,
@@ -12,56 +12,56 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-10-22晚（北京时间23日00:45/03:00）",
-    "strategy": "欧联/欧协联排名观察：ClubElo实力差45+去水市场30+赔率区间15+方向10，再扣伤停/状态/赛程风险并按EV±5调整；欧战无冻结验证模型",
-    "fixtures_checked": 35,
-    "status": "今晚0场正式批准；建议空仓；最高分67.81<84",
+    "date": "2026-10-23至10-29（五大联赛）",
+    "strategy": "五大联赛B_a0.14滚动xG泊松正式1X2 + 动态贝叶斯风险提示 + DraftKings实时90分钟赔率；透明风险排名（未经历史验证），可复现84/88分评分不可用",
+    "fixtures_checked": 58,
+    "status": "本周0场正式批准；建议空仓；5场条件观察，最高63.78<84",
     "approved_stake_cny": 0,
-    "notes": "15:41 CEST复核：截图35场、赔率≥1.50方向21个。欧联胜率用ClubElo官方赛程概率，欧协联用Elo近似并校准−1.96pp。ClubElo平局较市场系统性高4.24pp，平局EV不可用。上周观察Osasuna 2–0、Bournemouth 2–0均命中（未下注）。首发均未公布。",
+    "notes": "07:05 CEST复核：模型按截至10月19日Understat数据重跑，58场全匹配、56场有价。5场候选B版EV为正但动态贝叶斯同价均为负。无恰好主让−1.25。昨晚欧战观察榜前8名3中5负（Olympiacos、Bournemouth、Braga胜），未下注。10月25日起欧洲冬令时，北京时间=当地+7小时。",
     "candidates": [
       {
-        "league": "欧联 · 北京时间23日03:00",
-        "match": "Olympiacos vs Sparta Praha",
-        "selection": "90分钟奥林匹亚科斯主胜｜排名第1观察",
-        "model_probability": 0.6,
-        "probability_label": "ClubElo官方主胜概率",
-        "public_odds": "1.50（你的平台）；BetMGM约1.53、DK 1.50/4.50/6.00",
-        "minimum_odds": 1.68,
-        "minimum_odds_label": "1%EV所需赔率",
-        "status": "风险分67.81；近5场全胜但4场仅胜1球；1.50下EV −10.0%；三天后联赛；<84分，0元"
+        "league": "意甲 · 北京时间24日21:00",
+        "match": "Como vs Sassuolo",
+        "selection": "90分钟科莫主胜｜排名第1条件观察（唯一核心规则路径）",
+        "model_probability": 0.7663,
+        "probability_label": "B版主胜概率（贝叶斯61.2%）",
+        "public_odds": "1.50（DK/bet365；开盘1.40）；BetMGM 1.526",
+        "minimum_odds": 1.651,
+        "minimum_odds_label": "双模型转正价",
+        "status": "风险分63.78；B版EV +14.95%、贝叶斯−8.23%；周二欧冠4–1后仅休3天，缺Chalobah等3人、Kean存疑；<84分，0元"
       },
       {
-        "league": "欧协联 · 北京时间23日03:00",
-        "match": "Midtjylland vs Sint-Truiden",
-        "selection": "90分钟中日德兰主胜｜排名第2观察",
-        "model_probability": 0.5839,
-        "probability_label": "Elo校准主胜概率",
-        "public_odds": "1.75（你的平台）；美国盘最好DK 1.714",
-        "minimum_odds": 1.73,
-        "minimum_odds_label": "1%EV所需赔率",
-        "status": "风险分62.97；前三唯一正EV（1.75下+2.18%，1.714下≈0）；缺Olafsson、Erlic、Gogorza、Brumado、Jensen；<84分，0元"
+        "league": "西甲 · 北京时间24日20:00",
+        "match": "Rayo Vallecano vs Elche",
+        "selection": "90分钟巴列卡诺主胜｜排名第2条件观察",
+        "model_probability": 0.6104,
+        "probability_label": "B版主胜概率（贝叶斯51.2%）",
+        "public_odds": "1.769（DK）；Bovada 1.78",
+        "minimum_odds": 1.972,
+        "minimum_odds_label": "双模型转正价",
+        "status": "风险分55.38；B版EV +7.99%、贝叶斯−9.38%；缺Luiz Felipe、Batalla，Elche近3场不败；<84分，0元"
       },
       {
-        "league": "欧协联 · 北京时间23日00:45",
-        "match": "Pafos vs Riga FC",
-        "selection": "90分钟帕福斯主胜｜排名第3观察",
-        "model_probability": 0.5785,
-        "probability_label": "Elo校准主胜概率",
-        "public_odds": "1.62（你的平台）；DK 1.606–1.67",
-        "minimum_odds": 1.75,
-        "minimum_odds_label": "1%EV所需赔率",
-        "status": "风险分62.54；EV −6.29%；缺Goldar、Gorter、Kyriakides、Jajá、Ngamaleu；首轮1–3负Atalanta；0元"
+        "league": "西甲 · 北京时间25日21:00",
+        "match": "Athletic Club vs Getafe",
+        "selection": "毕尔巴鄂主胜｜第3名，模型分歧最大",
+        "model_probability": 0.759,
+        "probability_label": "B版主胜概率（贝叶斯49.6%）",
+        "public_odds": "1.588–1.606（DK/FanDuel）",
+        "minimum_odds": 2.038,
+        "minimum_odds_label": "双模型转正价",
+        "status": "风险分49.41；B版EV +20.54%但两模型差26.3pp；联赛4场不胜、缺Guruzeta和Sancet；按模型风险处理，0元"
       },
       {
-        "league": "欧协联 · 北京时间23日03:00",
-        "match": "Braga vs Gent",
-        "selection": "布拉加主胜｜表面高EV不追",
-        "model_probability": 0.5378,
-        "probability_label": "Elo校准主胜概率",
-        "public_odds": "1.90（你的平台）；DK由约1.69漂至2.05",
-        "minimum_odds": 1.88,
-        "minimum_odds_label": "1%EV所需赔率",
-        "status": "风险分52.60（第6）；2.05下表面EV +10.25%，但三连败、首轮0–3、主胜持续漂高；按模型风险处理，0元"
+        "league": "西甲 · 北京时间26日04:00",
+        "match": "Barcelona vs Real Madrid",
+        "selection": "巴萨主胜｜第4名观察",
+        "model_probability": 0.632,
+        "probability_label": "B版主胜概率（贝叶斯53.5%）",
+        "public_odds": "1.645（DK；开盘1.526）；1xBet 1.65",
+        "minimum_odds": 1.886,
+        "minimum_odds_label": "双模型转正价",
+        "status": "风险分43.89；欧冠2–4负PSG后作战，后防缺Christensen、Eric García，Koundé存疑；皇马Vinícius禁赛；0元"
       }
     ]
   },
