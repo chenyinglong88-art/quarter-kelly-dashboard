@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T07:05:00+02:00",
+  "updated_at": "2026-10-28T23:05:00+01:00",
   "account": {
     "bankroll_equity_cny": 10836.26,
     "available_cash_cny": 10836.26,
@@ -12,56 +12,56 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-10-23至10-29（五大联赛）",
+    "date": "2026-10-29至11-02（五大联赛）",
     "strategy": "五大联赛B_a0.14滚动xG泊松正式1X2 + 动态贝叶斯风险提示 + DraftKings实时90分钟赔率；透明风险排名（未经历史验证），可复现84/88分评分不可用",
-    "fixtures_checked": 58,
-    "status": "本周0场正式批准；建议空仓；5场条件观察，最高63.78<84",
+    "fixtures_checked": 50,
+    "status": "本周0场正式批准；建议空仓；0场通过条件观察门槛，最高观察分81.9<84",
     "approved_stake_cny": 0,
-    "notes": "07:05 CEST复核：模型按截至10月19日Understat数据重跑，58场全匹配、56场有价。5场候选B版EV为正但动态贝叶斯同价均为负。无恰好主让−1.25。昨晚欧战观察榜前8名3中5负（Olympiacos、Bournemouth、Braga胜），未下注。10月25日起欧洲冬令时，北京时间=当地+7小时。",
+    "notes": "23:05 CET复核：模型以截至10月28日的Understat数据重跑，50场全匹配、49场有价。英超/西甲1.50–2.00区间仅Man City、Villa两场，B版EV均为负；Como、Lyon低于1.50。平局3.0–3.6观察带17场贝叶斯EV全为负。上周观察：条件观察5场3中（Como、Athletic、Sociedad胜；Rayo、巴萨负），未下注。北京时间=欧洲中部+7小时。",
     "candidates": [
       {
-        "league": "意甲 · 北京时间24日21:00",
-        "match": "Como vs Sassuolo",
-        "selection": "90分钟科莫主胜｜排名第1条件观察（唯一核心规则路径）",
-        "model_probability": 0.7663,
-        "probability_label": "B版主胜概率（贝叶斯61.2%）",
-        "public_odds": "1.50（DK/bet365；开盘1.40）；BetMGM 1.526",
-        "minimum_odds": 1.651,
+        "league": "德甲 · 北京时间31日22:30",
+        "match": "Leverkusen vs VfB Stuttgart",
+        "selection": "勒沃库森主胜｜排名第1（德甲>1.50无授权）",
+        "model_probability": 0.7305,
+        "probability_label": "B版主胜概率（贝叶斯67.3%）",
+        "public_odds": "1.769（DK）；1xBet 1.85、BetMGM 1.80",
+        "minimum_odds": 1.501,
         "minimum_odds_label": "双模型转正价",
-        "status": "风险分63.78；B版EV +14.95%、贝叶斯−8.23%；周二欧冠4–1后仅休3天，缺Chalobah等3人、Kean存疑；<84分，0元"
+        "status": "观察分81.9<84；按1.85两模型EV +35.2%/+24.5%；缺Diaby、Kofane、Terrier等5人，周三杯赛后休3天；0元"
       },
       {
-        "league": "西甲 · 北京时间24日20:00",
-        "match": "Rayo Vallecano vs Elche",
-        "selection": "90分钟巴列卡诺主胜｜排名第2条件观察",
-        "model_probability": 0.6104,
-        "probability_label": "B版主胜概率（贝叶斯51.2%）",
-        "public_odds": "1.769（DK）；Bovada 1.78",
-        "minimum_odds": 1.972,
+        "league": "英超 · 北京时间31日23:00",
+        "match": "Bournemouth vs Leeds",
+        "selection": "伯恩茅斯主胜｜排名第2（超2.00扩展上限）",
+        "model_probability": 0.668,
+        "probability_label": "B版主胜概率（贝叶斯48.6%）",
+        "public_odds": "2.15（DK/BetMGM）；bet365 2.05",
+        "minimum_odds": 2.078,
         "minimum_odds_label": "双模型转正价",
-        "status": "风险分55.38；B版EV +7.99%、贝叶斯−9.38%；缺Luiz Felipe、Batalla，Elche近3场不败；<84分，0元"
+        "status": "观察分68.5；B版EV +43.6%、贝叶斯+4.5%，两模型差18pp；5连胜但10月第7场、缺Scott等3人；0元"
       },
       {
-        "league": "西甲 · 北京时间25日21:00",
-        "match": "Athletic Club vs Getafe",
-        "selection": "毕尔巴鄂主胜｜第3名，模型分歧最大",
-        "model_probability": 0.759,
-        "probability_label": "B版主胜概率（贝叶斯49.6%）",
-        "public_odds": "1.588–1.606（DK/FanDuel）",
-        "minimum_odds": 2.038,
+        "league": "英超 · 北京时间31日23:00",
+        "match": "Hull vs Ipswich",
+        "selection": "赫尔主胜｜排名第3（超2.00上限）",
+        "model_probability": 0.6061,
+        "probability_label": "B版主胜概率（贝叶斯47.4%）",
+        "public_odds": "2.65（DK）；FanDuel 2.60",
+        "minimum_odds": 2.133,
         "minimum_odds_label": "双模型转正价",
-        "status": "风险分49.41；B版EV +20.54%但两模型差26.3pp；联赛4场不胜、缺Guruzeta和Sancet；按模型风险处理，0元"
+        "status": "观察分54.1；近5场0胜、缺阵4人，B版远高于市场36.1%，按模型高估处理；0元"
       },
       {
-        "league": "西甲 · 北京时间26日04:00",
-        "match": "Barcelona vs Real Madrid",
-        "selection": "巴萨主胜｜第4名观察",
-        "model_probability": 0.632,
-        "probability_label": "B版主胜概率（贝叶斯53.5%）",
-        "public_odds": "1.645（DK；开盘1.526）；1xBet 1.65",
-        "minimum_odds": 1.886,
-        "minimum_odds_label": "双模型转正价",
-        "status": "风险分43.89；欧冠2–4负PSG后作战，后防缺Christensen、Eric García，Koundé存疑；皇马Vinícius禁赛；0元"
+        "league": "英超 · 北京时间31日23:00",
+        "match": "Man City vs Brighton",
+        "selection": "曼城主胜｜唯一在1.50–2.00扩展区间",
+        "model_probability": 0.5531,
+        "probability_label": "B版主胜概率（贝叶斯48.8%）",
+        "public_odds": "1.645（DK）；BetMGM 1.69",
+        "minimum_odds": 1.826,
+        "minimum_odds_label": "B版EV 1%最低价",
+        "status": "观察分38.0；B版EV −6.5%（按1.69）；周三杯赛刚2–2点球胜；需≥1.826才达门槛；拒绝，0元"
       }
     ]
   },

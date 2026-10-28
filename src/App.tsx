@@ -449,7 +449,7 @@ function App() {
               <h3><Activity size={18} />最新推荐与执行记录</h3>
               <p>今后所有通过审批的比赛统一在此更新，状态分为待复核、已批准、已执行与已结算。</p>
             </div>
-            <div className="live-update"><i />最后更新 {liveBoard.updated_at.replace("T", " ").slice(0, 16)} GMT+2</div>
+            <div className="live-update"><i />最后更新 {liveBoard.updated_at.replace("T", " ").slice(0, 16)} {(() => { const m = liveBoard.updated_at.match(/([+-])(\d{2}):(\d{2})$/); return m ? `GMT${m[1]}${Number(m[2])}` : "GMT+2"; })()}</div>
           </div>
 
           <div className="live-account-grid">
