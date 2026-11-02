@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T23:05:00+01:00",
+  "updated_at": "2026-11-02T10:05:00+01:00",
   "account": {
     "bankroll_equity_cny": 10836.26,
     "available_cash_cny": 10836.26,
@@ -12,56 +12,56 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-10-29至11-02（五大联赛）",
+    "date": "2026-11-02至11-08（五大联赛）",
     "strategy": "五大联赛B_a0.14滚动xG泊松正式1X2 + 动态贝叶斯风险提示 + DraftKings实时90分钟赔率；透明风险排名（未经历史验证），可复现84/88分评分不可用",
-    "fixtures_checked": 50,
-    "status": "本周0场正式批准；建议空仓；0场通过条件观察门槛，最高观察分81.9<84",
+    "fixtures_checked": 53,
+    "status": "本周0场正式批准；建议空仓；最高观察分75.2<84；Understat断线，数据阻断",
     "approved_stake_cny": 0,
-    "notes": "23:05 CET复核：模型以截至10月28日的Understat数据重跑，50场全匹配、49场有价。英超/西甲1.50–2.00区间仅Man City、Villa两场，B版EV均为负；Como、Lyon低于1.50。平局3.0–3.6观察带17场贝叶斯EV全为负。上周观察：条件观察5场3中（Como、Athletic、Sociedad胜；Rayo、巴萨负），未下注。北京时间=欧洲中部+7小时。",
+    "notes": "10:05 CET复核：understat.com域名今日无法解析，正式模型使用10-29缓存（数据截至10-25至10-28，缺47场）；FotMob xG校准补齐版仅作敏感性检验（与Understat相关0.943），前两名排名不变。53场全匹配、52场有价。英超/西甲1.50–2.00区间布莱顿、塞尔塔B版为正但贝叶斯为负；≤1.50核心正EV四场均低于用户1.50下限。平局3.0–3.6带21场贝叶斯EV全为负。上周观察前五2中3负（假设−75元），未下注。北京时间=欧洲中部+7小时。",
     "candidates": [
       {
-        "league": "德甲 · 北京时间31日22:30",
-        "match": "Leverkusen vs VfB Stuttgart",
-        "selection": "勒沃库森主胜｜排名第1（德甲>1.50无授权）",
-        "model_probability": 0.7305,
-        "probability_label": "B版主胜概率（贝叶斯67.3%）",
-        "public_odds": "1.769（DK）；1xBet 1.85、BetMGM 1.80",
-        "minimum_odds": 1.501,
-        "minimum_odds_label": "双模型转正价",
-        "status": "观察分81.9<84；按1.85两模型EV +35.2%/+24.5%；缺Diaby、Kofane、Terrier等5人，周三杯赛后休3天；0元"
+        "league": "意甲 · 北京时间9日01:00",
+        "match": "Inter vs Como",
+        "selection": "国米主胜｜排名第1（意甲>1.50无授权）",
+        "model_probability": 0.6833,
+        "probability_label": "B版主胜概率（贝叶斯55.2%）",
+        "public_odds": "1.741（DK）；NetWin/Betsson 1.81、bet365 1.75",
+        "minimum_odds": 1.829,
+        "minimum_odds_label": "双模型EV 1%价",
+        "status": "观察分75.2<84；按1.81 B版+23.7%、贝叶斯−0.1%；双方各缺5人（劳塔罗等），科莫5连胜；0元"
       },
       {
-        "league": "英超 · 北京时间31日23:00",
-        "match": "Bournemouth vs Leeds",
-        "selection": "伯恩茅斯主胜｜排名第2（超2.00扩展上限）",
-        "model_probability": 0.668,
-        "probability_label": "B版主胜概率（贝叶斯48.6%）",
-        "public_odds": "2.15（DK/BetMGM）；bet365 2.05",
-        "minimum_odds": 2.078,
-        "minimum_odds_label": "双模型转正价",
-        "status": "观察分68.5；B版EV +43.6%、贝叶斯+4.5%，两模型差18pp；5连胜但10月第7场、缺Scott等3人；0元"
+        "league": "法甲 · 北京时间9日03:45",
+        "match": "Lens vs Marseille",
+        "selection": "朗斯主胜｜排名第2（法甲>1.50无授权）",
+        "model_probability": 0.578,
+        "probability_label": "B版主胜概率（贝叶斯56.7%）",
+        "public_odds": "2.05（DK）；1xBet 2.12、bet365 2.02",
+        "minimum_odds": 1.782,
+        "minimum_odds_label": "双模型EV 1%价",
+        "status": "观察分74.9；唯一双模型同向正EV（按2.12 +22.5%/+20.2%）；朗斯缺5人、近5场2胜，马赛周四欧联客战勒沃库森；0元"
       },
       {
-        "league": "英超 · 北京时间31日23:00",
-        "match": "Hull vs Ipswich",
-        "selection": "赫尔主胜｜排名第3（超2.00上限）",
-        "model_probability": 0.6061,
-        "probability_label": "B版主胜概率（贝叶斯47.4%）",
-        "public_odds": "2.65（DK）；FanDuel 2.60",
-        "minimum_odds": 2.133,
-        "minimum_odds_label": "双模型转正价",
-        "status": "观察分54.1；近5场0胜、缺阵4人，B版远高于市场36.1%，按模型高估处理；0元"
+        "league": "英超 · 北京时间8日22:00",
+        "match": "Brighton vs Brentford",
+        "selection": "布莱顿主胜｜英超扩展区间（排名第5）",
+        "model_probability": 0.7002,
+        "probability_label": "B版主胜概率（贝叶斯46.0%）",
+        "public_odds": "1.909（DK）；Betfred 1.95、bet365 1.85",
+        "minimum_odds": 2.196,
+        "minimum_odds_label": "双模型EV 1%价",
+        "status": "观察分58.5<88；B版+33.7%但贝叶斯−12.2%，两模型差24pp；周四欧协联客战赫塔菲；条件观察未批准，0元"
       },
       {
-        "league": "英超 · 北京时间31日23:00",
-        "match": "Man City vs Brighton",
-        "selection": "曼城主胜｜唯一在1.50–2.00扩展区间",
-        "model_probability": 0.5531,
-        "probability_label": "B版主胜概率（贝叶斯48.8%）",
-        "public_odds": "1.645（DK）；BetMGM 1.69",
-        "minimum_odds": 1.826,
-        "minimum_odds_label": "B版EV 1%最低价",
-        "status": "观察分38.0；B版EV −6.5%（按1.69）；周三杯赛刚2–2点球胜；需≥1.826才达门槛；拒绝，0元"
+        "league": "西甲 · 北京时间9日01:30",
+        "match": "Celta Vigo vs Levante",
+        "selection": "塞尔塔主胜｜西甲扩展区间（排名第7）",
+        "model_probability": 0.5777,
+        "probability_label": "B版主胜概率（贝叶斯39.7%）",
+        "public_odds": "1.769（DK）；Oddschecker最佳1.833",
+        "minimum_odds": 2.546,
+        "minimum_odds_label": "双模型EV 1%价",
+        "status": "观察分23.3；B版+2.2%、贝叶斯−29.8%；缺5人，双方周四均有欧联/国王杯；条件观察未批准，0元"
       }
     ]
   },
