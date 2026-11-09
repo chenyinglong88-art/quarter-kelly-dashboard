@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T10:05:00+01:00",
+  "updated_at": "2026-11-09T23:35:00+01:00",
   "account": {
     "bankroll_equity_cny": 10836.26,
     "available_cash_cny": 10836.26,
@@ -12,56 +12,56 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-11-02至11-08（五大联赛）",
-    "strategy": "五大联赛B_a0.14滚动xG泊松正式1X2 + 动态贝叶斯风险提示 + DraftKings实时90分钟赔率；透明风险排名（未经历史验证），可复现84/88分评分不可用",
-    "fixtures_checked": 53,
-    "status": "本周0场正式批准；建议空仓；最高观察分75.2<84；Understat断线，数据阻断",
+    "date": "2026-11-12至11-17（欧国联第5–6轮）",
+    "strategy": "欧国联透明观察排名：Elo(2026-11-09)+DraftKings去水1X2+赔率区间+同向分，再按缺阵/战意/新帅固定扣分；未经历史验证，可复现84分评分不可用",
+    "fixtures_checked": 52,
+    "status": "本周0场正式批准；建议空仓；最高风险调整分75.4<84",
     "approved_stake_cny": 0,
-    "notes": "10:05 CET复核：understat.com域名今日无法解析，正式模型使用10-29缓存（数据截至10-25至10-28，缺47场）；FotMob xG校准补齐版仅作敏感性检验（与Understat相关0.943），前两名排名不变。53场全匹配、52场有价。英超/西甲1.50–2.00区间布莱顿、塞尔塔B版为正但贝叶斯为负；≤1.50核心正EV四场均低于用户1.50下限。平局3.0–3.6带21场贝叶斯EV全为负。上周观察前五2中3负（假设−75元），未下注。北京时间=欧洲中部+7小时。",
+    "notes": "23:35 CET复核：第5轮25场有完整1X2，第6轮26场未开盘待重评。Elo平均比去水市场高2.78pp（68%场次偏乐观），排名前三瑞士/奥地利/瑞典按市场概率在最高价均为负EV；阿尔巴尼亚、冰岛、法国、科索沃仅比价网站个别高价可转正，未确认可成交。低于1.50热门10场按用户下限排除；平局3.0–3.6带9场，9月样本ROI −11.1%，无授权。前四轮104场已完赛，欧国联观察累计8胜6负，真实下注0。",
     "candidates": [
       {
-        "league": "意甲 · 北京时间9日01:00",
-        "match": "Inter vs Como",
-        "selection": "国米主胜｜排名第1（意甲>1.50无授权）",
-        "model_probability": 0.6833,
-        "probability_label": "B版主胜概率（贝叶斯55.2%）",
-        "public_odds": "1.741（DK）；NetWin/Betsson 1.81、bet365 1.75",
-        "minimum_odds": 1.829,
-        "minimum_odds_label": "双模型EV 1%价",
-        "status": "观察分75.2<84；按1.81 B版+23.7%、贝叶斯−0.1%；双方各缺5人（劳塔罗等），科莫5连胜；0元"
+        "league": "欧国联B1 · 北京时间14日03:45",
+        "match": "Slovenia vs Switzerland",
+        "selection": "瑞士客胜｜排名第1（风险调整分75.4）",
+        "model_probability": 0.5687,
+        "probability_label": "去水市场胜率（Elo期望0.777）",
+        "public_odds": "1.606（DK）；22bet/Shangrila 1.70、bet365 1.62",
+        "minimum_odds": 1.776,
+        "minimum_odds_label": "市场EV 1%价",
+        "status": "扎卡、巴尔加斯缺阵；斯洛文尼亚缺谢什科及两名停赛；瑞士平局即升A；按1.70市场EV −3.3%；0元"
       },
       {
-        "league": "法甲 · 北京时间9日03:45",
-        "match": "Lens vs Marseille",
-        "selection": "朗斯主胜｜排名第2（法甲>1.50无授权）",
-        "model_probability": 0.578,
-        "probability_label": "B版主胜概率（贝叶斯56.7%）",
-        "public_odds": "2.05（DK）；1xBet 2.12、bet365 2.02",
-        "minimum_odds": 1.782,
-        "minimum_odds_label": "双模型EV 1%价",
-        "status": "观察分74.9；唯一双模型同向正EV（按2.12 +22.5%/+20.2%）；朗斯缺5人、近5场2胜，马赛周四欧联客战勒沃库森；0元"
+        "league": "欧国联B3 · 北京时间15日03:45",
+        "match": "Austria vs Republic of Ireland",
+        "selection": "奥地利主胜｜排名第2（72.7）",
+        "model_probability": 0.5848,
+        "probability_label": "去水市场胜率（Elo期望0.754）",
+        "public_odds": "1.556（DK）；Shangrila 1.62、bet365 1.54",
+        "minimum_odds": 1.727,
+        "minimum_odds_label": "市场EV 1%价",
+        "status": "阿拉巴、萨比策、维默等8人缺阵；爱尔兰缺卡伦、弗格森；主场胜即升A；按1.62市场EV −5.3%；0元"
       },
       {
-        "league": "英超 · 北京时间8日22:00",
-        "match": "Brighton vs Brentford",
-        "selection": "布莱顿主胜｜英超扩展区间（排名第5）",
-        "model_probability": 0.7002,
-        "probability_label": "B版主胜概率（贝叶斯46.0%）",
-        "public_odds": "1.909（DK）；Betfred 1.95、bet365 1.85",
-        "minimum_odds": 2.196,
-        "minimum_odds_label": "双模型EV 1%价",
-        "status": "观察分58.5<88；B版+33.7%但贝叶斯−12.2%，两模型差24pp；周四欧协联客战赫塔菲；条件观察未批准，0元"
+        "league": "欧国联C1 · 北京时间13日03:45",
+        "match": "Albania vs Finland",
+        "selection": "阿尔巴尼亚主胜｜排名第6（57.0）",
+        "model_probability": 0.5046,
+        "probability_label": "去水市场胜率（Elo期望0.673）",
+        "public_odds": "1.833（DK）；1xBet 2.17、bet365 2.02、YesPlay 1.98",
+        "minimum_odds": 2.002,
+        "minimum_odds_label": "市场EV 1%价",
+        "status": "仅比价最高价2.17市场EV +9.5%，未确认可成交；首回合芬兰2-1；缺斯特拉科沙、布罗亚；条件观察，0元"
       },
       {
-        "league": "西甲 · 北京时间9日01:30",
-        "match": "Celta Vigo vs Levante",
-        "selection": "塞尔塔主胜｜西甲扩展区间（排名第7）",
-        "model_probability": 0.5777,
-        "probability_label": "B版主胜概率（贝叶斯39.7%）",
-        "public_odds": "1.769（DK）；Oddschecker最佳1.833",
-        "minimum_odds": 2.546,
-        "minimum_odds_label": "双模型EV 1%价",
-        "status": "观察分23.3；B版+2.2%、贝叶斯−29.8%；缺5人，双方周四均有欧联/国王杯；条件观察未批准，0元"
+        "league": "欧国联A1 · 北京时间13日03:45",
+        "match": "Italy vs France",
+        "selection": "法国客胜｜基础分63.3→调整后48.8",
+        "model_probability": 0.5323,
+        "probability_label": "去水市场胜率（Elo期望0.678）",
+        "public_odds": "1.741（DK API）；Pinnacle 1.99、bet365 1.95",
+        "minimum_odds": 1.897,
+        "minimum_odds_label": "市场EV 1%价",
+        "status": "登贝莱、孔德、萨利巴、卡卢卢等7名近期首发缺阵；法国平局即进八强；扣14.5分；0元"
       }
     ]
   },
