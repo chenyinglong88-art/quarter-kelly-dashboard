@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T23:35:00+01:00",
+  "updated_at": "2026-11-14T14:00:00+01:00",
   "account": {
     "bankroll_equity_cny": 10836.26,
     "available_cash_cny": 10836.26,
@@ -12,56 +12,56 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-11-12至11-17（欧国联第5–6轮）",
-    "strategy": "欧国联透明观察排名：Elo(2026-11-09)+DraftKings去水1X2+赔率区间+同向分，再按缺阵/战意/新帅固定扣分；未经历史验证，可复现84分评分不可用",
-    "fixtures_checked": 52,
-    "status": "本周0场正式批准；建议空仓；最高风险调整分75.4<84",
+    "date": "2026-11-14至11-17（欧国联第5–6轮剩余34场）",
+    "strategy": "战意排名：122场赛果+剩余赛程3万次蒙特卡洛（UEFA同分与A级跨组规则），战意差=己方赢球需求−对手胜负利害；再对比多家去水共识概率与Elo。权重启发式、未回测",
+    "fixtures_checked": 34,
+    "status": "0场正式批准；建议空仓；战意已被市场定价，5个有价候选最佳价EV −5.7%至−7.6%",
     "approved_stake_cny": 0,
-    "notes": "23:35 CET复核：第5轮25场有完整1X2，第6轮26场未开盘待重评。Elo平均比去水市场高2.78pp（68%场次偏乐观），排名前三瑞士/奥地利/瑞典按市场概率在最高价均为负EV；阿尔巴尼亚、冰岛、法国、科索沃仅比价网站个别高价可转正，未确认可成交。低于1.50热门10场按用户下限排除；平局3.0–3.6带9场，9月样本ROI −11.1%，无授权。前四轮104场已完赛，欧国联观察累计8胜6负，真实下注0。",
+    "notes": "14:00 CET：战意差第1德国对荷兰+21.3（德国平局且希腊胜则跌至第3；荷兰仍争第1），市场共识胜率51.2%远高于Elo 34.8%，扣除主场常态偏差后仍溢价约20.9pp。对手最“无所谓”的是北马其顿（锁定第4）与已升级的瑞士、已出线的葡萄牙。11-17八场未开盘待评估。上一版第1名瑞士客胜0-0未中；真实下注0，权益10,836.26元。",
     "candidates": [
       {
-        "league": "欧国联B1 · 北京时间14日03:45",
-        "match": "Slovenia vs Switzerland",
-        "selection": "瑞士客胜｜排名第1（风险调整分75.4）",
-        "model_probability": 0.5687,
-        "probability_label": "去水市场胜率（Elo期望0.777）",
-        "public_odds": "1.606（DK）；22bet/Shangrila 1.70、bet365 1.62",
-        "minimum_odds": 1.776,
-        "minimum_odds_label": "市场EV 1%价",
-        "status": "扎卡、巴尔加斯缺阵；斯洛文尼亚缺谢什科及两名停赛；瑞士平局即升A；按1.70市场EV −3.3%；0元"
+        "league": "欧国联A2 · 北京时间17日03:45",
+        "match": "Germany vs Netherlands",
+        "selection": "德国主胜｜战意排名第1（战意差+21.3）",
+        "model_probability": 0.5122,
+        "probability_label": "四家去水共识胜率（Elo 0.348）",
+        "public_odds": "1.833（DK）；Betfred 1.83、Betsson 1.82、1xbet 1.80",
+        "minimum_odds": 1.973,
+        "minimum_odds_label": "共识EV 1%价",
+        "status": "德国须赢（交锋落后希腊）；荷兰仍争第1；德缺穆西亚拉、格纳布里、安东；EV −6.2%；0元"
       },
       {
-        "league": "欧国联B3 · 北京时间15日03:45",
-        "match": "Austria vs Republic of Ireland",
-        "selection": "奥地利主胜｜排名第2（72.7）",
-        "model_probability": 0.5848,
-        "probability_label": "去水市场胜率（Elo期望0.754）",
-        "public_odds": "1.556（DK）；Shangrila 1.62、bet365 1.54",
-        "minimum_odds": 1.727,
+        "league": "欧国联B1 · 北京时间17日03:45",
+        "match": "Switzerland vs Scotland",
+        "selection": "苏格兰客胜｜第2（+12.2）",
+        "model_probability": 0.1857,
+        "probability_label": "去水市场胜率（Elo 0.072）",
+        "public_odds": "5.00（DK）；比价站6.50–6.87为瑞士升级前旧价",
+        "minimum_odds": 5.423,
         "minimum_odds_label": "市场EV 1%价",
-        "status": "阿拉巴、萨比策、维默等8人缺阵；爱尔兰缺卡伦、弗格森；主场胜即升A；按1.62市场EV −5.3%；0元"
+        "status": "瑞士已升级、亚金称部分轮换；苏格兰需赢且斯洛文尼亚不胜；EV −6.9%；0元"
       },
       {
-        "league": "欧国联C1 · 北京时间13日03:45",
-        "match": "Albania vs Finland",
-        "selection": "阿尔巴尼亚主胜｜排名第6（57.0）",
-        "model_probability": 0.5046,
-        "probability_label": "去水市场胜率（Elo期望0.673）",
-        "public_odds": "1.833（DK）；1xBet 2.17、bet365 2.02、YesPlay 1.98",
-        "minimum_odds": 2.002,
-        "minimum_odds_label": "市场EV 1%价",
-        "status": "仅比价最高价2.17市场EV +9.5%，未确认可成交；首回合芬兰2-1；缺斯特拉科沙、布罗亚；条件观察，0元"
+        "league": "欧国联B1 · 北京时间17日03:45",
+        "match": "North Macedonia vs Slovenia",
+        "selection": "斯洛文尼亚客胜｜第4（+5.6，对手利害0）",
+        "model_probability": 0.6002,
+        "probability_label": "四家去水共识胜率（Elo 0.499）",
+        "public_odds": "1.571（DK）；Betfred 1.53、1xbet/Paddy Power 1.50",
+        "minimum_odds": 1.682,
+        "minimum_odds_label": "共识EV 1%价",
+        "status": "北马其顿锁定第4最“无所谓”；斯洛文尼亚平局通常够用；缺谢什科、埃尔什尼克、比约尔(停赛)；EV −5.7%；0元"
       },
       {
-        "league": "欧国联A1 · 北京时间13日03:45",
-        "match": "Italy vs France",
-        "selection": "法国客胜｜基础分63.3→调整后48.8",
-        "model_probability": 0.5323,
-        "probability_label": "去水市场胜率（Elo期望0.678）",
-        "public_odds": "1.741（DK API）；Pinnacle 1.99、bet365 1.95",
-        "minimum_odds": 1.897,
+        "league": "欧国联A4 · 北京时间15日03:45",
+        "match": "Portugal vs Denmark",
+        "selection": "丹麦客胜｜第6（+4.2，葡萄牙已出线）",
+        "model_probability": 0.1939,
+        "probability_label": "去水市场胜率（Elo 0.090）",
+        "public_odds": "4.80（DK）",
+        "minimum_odds": 5.217,
         "minimum_odds_label": "市场EV 1%价",
-        "status": "登贝莱、孔德、萨利巴、卡卢卢等7名近期首发缺阵；法国平局即进八强；扣14.5分；0元"
+        "status": "葡萄牙12分锁定第1；丹麦需分保第2；市场已溢价约8pp；EV −7.1%；0元"
       }
     ]
   },
