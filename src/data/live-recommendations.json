@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T14:00:00+01:00",
+  "updated_at": "2026-11-14T14:20:00+01:00",
   "account": {
     "bankroll_equity_cny": 10836.26,
     "available_cash_cny": 10836.26,
@@ -12,56 +12,56 @@
     "drawdown_factor": 1
   },
   "screening_summary": {
-    "date": "2026-11-14至11-17（欧国联第5–6轮剩余34场）",
-    "strategy": "战意排名：122场赛果+剩余赛程3万次蒙特卡洛（UEFA同分与A级跨组规则），战意差=己方赢球需求−对手胜负利害；再对比多家去水共识概率与Elo。权重启发式、未回测",
+    "date": "2026-11-14至11-17（今天起4天；欧国联剩余34场，五大联赛停赛）",
+    "strategy": "逐日战意清单：3万次蒙特卡洛求\"己方赢球需求−对手胜负利害\"，筛选战意差≥3且对手利害≤6.5；再用DraftKings/Oddschecker去水概率对比Elo判断战意是否已被定价。启发式，未回测。",
     "fixtures_checked": 34,
-    "status": "0场正式批准；建议空仓；战意已被市场定价，5个有价候选最佳价EV −5.7%至−7.6%",
+    "status": "0场正式批准；建议空仓；8个\"必须赢·对手无所谓\"候选中7个已开盘，市场EV −5.7%至−8.2%",
     "approved_stake_cny": 0,
-    "notes": "14:00 CET：战意差第1德国对荷兰+21.3（德国平局且希腊胜则跌至第3；荷兰仍争第1），市场共识胜率51.2%远高于Elo 34.8%，扣除主场常态偏差后仍溢价约20.9pp。对手最“无所谓”的是北马其顿（锁定第4）与已升级的瑞士、已出线的葡萄牙。11-17八场未开盘待评估。上一版第1名瑞士客胜0-0未中；真实下注0，权益10,836.26元。",
+    "notes": "14:15 CET：逐日分布 14日1场/15日0场/16日5场/17日2场。唯一未被市场加价的是17日波黑主胜（罗马尼亚98.2%锁定第4；市场胜率53.4%低于Elo 63.1%），但市场EV −7.8%、需≥1.89，且取决于今晚瑞典对波黑结果——仅条件观察。17日以色列–奥地利、爱尔兰–科索沃、乌克兰–格鲁吉亚、威尔士–葡萄牙未开盘。真实下注0，权益10,836.26元。",
     "candidates": [
       {
-        "league": "欧国联A2 · 北京时间17日03:45",
+        "league": "欧国联B4 · 17日20:45 CET（北京18日03:45）",
+        "match": "Bosnia-Herzegovina vs Romania",
+        "selection": "波黑主胜｜17日第1（战意差+7.8，罗马尼亚已锁第4）",
+        "model_probability": 0.5336,
+        "probability_label": "14家中位去水胜率（Elo 0.631）",
+        "public_odds": "最佳8/11=1.727（Oddschecker，页面01:06更新）",
+        "minimum_odds": 1.893,
+        "minimum_odds_label": "市场EV 1%价",
+        "status": "唯一市场未加价的必须赢候选；Elo口径EV +9.0%未验证；缺哈季卡杜尼奇；先看今晚瑞典–波黑；EV −7.8%；0元"
+      },
+      {
+        "league": "欧国联A2 · 16日20:45 CET（北京17日03:45）",
         "match": "Germany vs Netherlands",
-        "selection": "德国主胜｜战意排名第1（战意差+21.3）",
+        "selection": "德国主胜｜16日第1（+21.2）",
         "model_probability": 0.5122,
         "probability_label": "四家去水共识胜率（Elo 0.348）",
-        "public_odds": "1.833（DK）；Betfred 1.83、Betsson 1.82、1xbet 1.80",
-        "minimum_odds": 1.973,
+        "public_odds": "1.833（DK）",
+        "minimum_odds": 1.972,
         "minimum_odds_label": "共识EV 1%价",
-        "status": "德国须赢（交锋落后希腊）；荷兰仍争第1；德缺穆西亚拉、格纳布里、安东；EV −6.2%；0元"
+        "status": "战意差最大但市场已溢价约20pp；EV −6.1%；0元"
       },
       {
-        "league": "欧国联B1 · 北京时间17日03:45",
-        "match": "Switzerland vs Scotland",
-        "selection": "苏格兰客胜｜第2（+12.2）",
-        "model_probability": 0.1857,
-        "probability_label": "去水市场胜率（Elo 0.072）",
-        "public_odds": "5.00（DK）；比价站6.50–6.87为瑞士升级前旧价",
-        "minimum_odds": 5.423,
-        "minimum_odds_label": "市场EV 1%价",
-        "status": "瑞士已升级、亚金称部分轮换；苏格兰需赢且斯洛文尼亚不胜；EV −6.9%；0元"
-      },
-      {
-        "league": "欧国联B1 · 北京时间17日03:45",
+        "league": "欧国联B1 · 16日20:45 CET（北京17日03:45）",
         "match": "North Macedonia vs Slovenia",
-        "selection": "斯洛文尼亚客胜｜第4（+5.6，对手利害0）",
+        "selection": "斯洛文尼亚客胜｜16日第3（+5.4，对手利害0）",
         "model_probability": 0.6002,
         "probability_label": "四家去水共识胜率（Elo 0.499）",
-        "public_odds": "1.571（DK）；Betfred 1.53、1xbet/Paddy Power 1.50",
-        "minimum_odds": 1.682,
+        "public_odds": "1.571（DK）",
+        "minimum_odds": 1.683,
         "minimum_odds_label": "共识EV 1%价",
-        "status": "北马其顿锁定第4最“无所谓”；斯洛文尼亚平局通常够用；缺谢什科、埃尔什尼克、比约尔(停赛)；EV −5.7%；0元"
+        "status": "北马其顿锁定第4最\"无所谓\"；EV −5.7%；0元"
       },
       {
-        "league": "欧国联A4 · 北京时间15日03:45",
+        "league": "欧国联A4 · 今天20:45 CET（北京15日03:45）",
         "match": "Portugal vs Denmark",
-        "selection": "丹麦客胜｜第6（+4.2，葡萄牙已出线）",
+        "selection": "丹麦客胜｜今天唯一（+3.9，葡萄牙已锁第1）",
         "model_probability": 0.1939,
         "probability_label": "去水市场胜率（Elo 0.090）",
         "public_odds": "4.80（DK）",
         "minimum_odds": 5.217,
         "minimum_odds_label": "市场EV 1%价",
-        "status": "葡萄牙12分锁定第1；丹麦需分保第2；市场已溢价约8pp；EV −7.1%；0元"
+        "status": "市场已溢价约8pp；EV −7.1%；0元"
       }
     ]
   },
